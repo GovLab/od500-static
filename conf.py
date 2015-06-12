@@ -149,7 +149,7 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "od500"
+THEME = "bootstrap3-jinja"
 
 # Below this point, everything is optional
 
