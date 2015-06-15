@@ -29,11 +29,35 @@
         <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
         {% endif %}
         {% endblock head %}
+
+        {% block js %}
+        <script src="/theme/js/jquery-2.1.0.min.js"></script>
+        <script src="/theme/js/jquery-ui-1.10.4.custom.min.js"></script>
+        {% endblock js %}
+
+        {% block css %}
+        <link rel="stylesheet" href="/theme/css/style.css" />
+        <link rel="stylesheet" href="/theme/css/parsley.css" />
+        <link rel="stylesheet" href="/theme/css/bootstrap.css" />
+        <link rel="stylesheet" href="/theme/css/jquery-ui-1.10.4.custom.min.css" />
+        <link rel="stylesheet" href="/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        {% endblock css %}
 </head>
 
 <body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+        <header id="banner">
+          <div class="container">
+            <a class="pull-left logo" href="/">
+              <img src="theme/img/od500-logo.png" alt="OpenData 500 Global Network">
+            </a>
+
+            <a class="b-poly-logo" href="http://engineering.nyu.edu/">
+              <div class="poly-logo"> </div>
+            </a>
+          </div>
+          <!--<h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>-->
         </header><!-- /#banner -->
         <nav id="menu"><ul>
         {% for title, link in MENUITEMS %}
@@ -53,11 +77,15 @@
         </ul></nav><!-- /#menu -->
         {% block content %}
         {% endblock %}
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+        <footer>
+          <div class="l-centered">
+            <div class="m-footer-logos">
+              <a href="http://thegovlab.org/"><img id="govlab-logo" src="/theme/img/govlab-logo.png" alt="The GovLab"></a>
+            </div>
+            <ul>
+            </ul>
+            <p class="creative-commons-license"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">The Open Data 500</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://thegovlab.org/" property="cc:attributionName" rel="cc:attributionURL">The GovLab</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/govlab/od500-static" rel="dct:source">https://github.com/govlab/od500-static</a>.</p>
+          </div>
+        </footer><!-- end footer -->
 </body>
 </html>
