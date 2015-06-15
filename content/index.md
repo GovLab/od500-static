@@ -1,10 +1,13 @@
 Title: Open Data 500 Global Network
-URL:
 date: 2015-06-11
+URL:
 save_as: index.html
 
-OD500 Global Network
-====================
+<!--
+save_as: index.html
+-->
+
+# OD500 Global Network
 
 The OD500 Global Network is an
 international network of organizations that seek to study the use
