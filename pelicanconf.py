@@ -3,16 +3,18 @@
 '''
 Pelican theme for OD500 '''
 
-#from iso3166 import countries
-
 THEME = 'themes/od500'
 
 SITENAME = "Open Data 500"
 
-JINJA_EXTENSIONS = ['jinja2.ext.i18n']
-
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
+
+JINJA_EXTENSIONS = ['jinja2.ext.i18n']
+I18N_GETTEXT_NEWSTYLE = True
+I18N_GETTEXT_LOCALEDIR = 'themes/od500/translations'
+I18N_GETTEXT_DOMAIN = 'messages'
+I18N_UNTRANSLATED_ARTICLES = 'keep'
 
 # Country -> category
 #CATEGORIES_SAVE_AS = 'index.html'
@@ -57,5 +59,3 @@ COUNTRIES = {
         'language': u'kr',
     },
 }
-
-#COUNTRIES = countries

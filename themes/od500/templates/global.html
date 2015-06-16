@@ -6,9 +6,12 @@
 <div class="country-selector">
   {% for category, articles in categories %}
     {% if category in COUNTRIES %}
+      {% set country = COUNTRIES.get(category.name) %}
       <a href="{{ SITEURL }}/{{ category.url }}">
         <div class="col-sm-4 flag flag-{{ category }}">
-          <h2>{% trans country=COUNTRIES.get(category.name).name %}{{ country }}{% endtrans %}</h2>
+          <h2>
+            {{ gettext(country.name) }}
+          </h2>
         </div>
       </a>
     {% endif %}
