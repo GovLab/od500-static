@@ -31,18 +31,18 @@
         {% endblock head %}
 
         {% block js %}
-        <script src="/theme/js/jquery-2.1.0.min.js"></script>
-        <script src="/theme/js/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-2.1.0.min.js"></script>
+        <!--<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery-ui-1.10.4.custom.min.js"></script>-->
         {% endblock js %}
 
         {% block css %}
-        <link rel="stylesheet" href="/theme/css/style.css" />
-        <link rel="stylesheet" href="/theme/css/parsley.css" />
-        <link rel="stylesheet" href="/theme/css/bootstrap.css" />
-        <link rel="stylesheet" href="/theme/css/jquery-ui-1.10.4.custom.min.css" />
-        <link rel="stylesheet" href="/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" />
-        <link href='http://fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/parsley.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/jquery-ui-1.10.4.custom.min.css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link href='//fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type='text/css'>
         {% endblock css %}
 </head>
 
@@ -50,7 +50,7 @@
         <header id="banner">
           <div class="container">
             <a class="pull-left logo" href="/">
-              <img src="theme/img/od500-logo.png" alt="OpenData 500 Global Network">
+              <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/od500-logo.png" alt="OpenData 500 Global Network">
             </a>
 
             <a class="b-poly-logo" href="http://engineering.nyu.edu/">
@@ -75,12 +75,14 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
+        <div class="container">
         {% block content %}
         {% endblock %}
+        </div>
         <footer>
           <div class="l-centered">
             <div class="m-footer-logos">
-              <a href="http://thegovlab.org/"><img id="govlab-logo" src="/theme/img/govlab-logo.png" alt="The GovLab"></a>
+              <a href="http://thegovlab.org/"><img id="govlab-logo" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/govlab-logo.png" alt="The GovLab"></a>
             </div>
             <ul>
             </ul>
