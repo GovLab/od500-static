@@ -1,20 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand|Ubuntu|Muli|Roboto);
 
-
-#banner {
+.navbar {
   background-color: #472b74;
   border-bottom: 5px solid #8977a7;
-  padding: 10px 0;
-  height: 80px;
-  text-align: center;
 }
 
 .logo img {
   width: 120px; }
 
 .poly-logo {
-  text-align: right;
-  float: right;
   background-image: url(/theme/img/poly_logo.png);
   background-size: cover;
   width: 297px;
