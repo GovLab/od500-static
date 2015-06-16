@@ -3,7 +3,7 @@ date: 2015-06-11
 lang: en
 URL: mx/
 tags: od100 mx,
-slug: 
+slug: od100mx
 save_as: mx/index.html
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/ljuclmBfAQQ" frameborder="0" allowfullscreen></iframe>

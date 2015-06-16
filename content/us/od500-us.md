@@ -3,7 +3,7 @@ date: 2015-06-11
 lang: en
 URL: us/
 tags: od500 us,
-slug: 
+slug: od500us
 save_as: us/index.html
 
 ---

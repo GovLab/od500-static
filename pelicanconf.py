@@ -5,6 +5,7 @@ Pelican theme for OD500
 from iso3166 import countries
 
 THEME = 'themes/od500'
+
 SITENAME = "Open Data 500"
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -22,14 +23,15 @@ ARTICLE_SAVE_AS = '{lang}/{category}/{slug}/index.html'
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'en': {
+        'THEME_STATIC_DIR': 'en/theme'
     },
     'es': {
-        'SITENAME': 'el Open Data 500',
+        'SITENAME': 'Datos Abiertos 500',
     },
     'it': {
-        'SITENAME': 'Open Data 500 it',
+        'SITENAME': '???',
     },
-    'ko': {
+    'kr': {
         'SITENAME': '???',
     },
 }
