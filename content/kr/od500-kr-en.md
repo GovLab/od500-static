@@ -4,7 +4,7 @@ lang: en
 URL: kr/
 tags: od500 kr,
 slug: od500kr
-save_as: kr/index.html
+save_as: en/kr/index.html
 
 # About this Project
 

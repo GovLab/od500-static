@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+{% if SITEURL == NONLOCAL_SITEURL %}
+  {% set SITEURL = NONLOCAL_SITEURL + '/' + DEFAULT_LANG %}
+{% endif %}
+
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
@@ -31,16 +36,16 @@
         {% endblock head %}
 
         {% block js %}
-        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         {% endblock js %}
 
         {% block css %}
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/parsley.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/jquery-ui-1.10.4.custom.min.css" />
-        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/css/style.css" />
+        <link rel="stylesheet" href="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/css/parsley.css" />
+        <link rel="stylesheet" href="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.css" />
+        <link rel="stylesheet" href="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/css/jquery-ui-1.10.4.custom.min.css" />
+        <link rel="stylesheet" href="{{ NONLOCAL_SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/bootstrap/dist/css/bootstrap.min.css" />
         <link href='//fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type='text/css'>
         {% endblock css %}
@@ -57,7 +62,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo" href="/">
+          <a class="navbar-brand logo" href="{{ SITEURL }}">
             <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/od500-logo.png" alt="{{ gettext('OpenData 500 Global Network') }}">
           </a>
         </div>

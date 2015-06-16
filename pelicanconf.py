@@ -6,6 +6,8 @@ Pelican theme for OD500 '''
 THEME = 'themes/od500'
 
 SITENAME = "Open Data 500"
+NONLOCAL_SITEURL = "http://localhost:8000"
+SITEURL = "http://localhost:8000"
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['i18n_subsites']
@@ -22,22 +24,22 @@ CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index_ignore.html'
 INDEX_SAVE_AS = 'index_ignore.html'
 
-ARTICLE_URL = '{lang}/{category}/{slug}/'
-ARTICLE_SAVE_AS = '{lang}/{category}/{slug}/index.html'
+ARTICLE_URL = '{category}/{slug}/'
+ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
 
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'en': {
-        'THEME_STATIC_DIR': 'en/theme',
+        'THEME_STATIC_DIR': 'theme',
     },
     'es': {
-        'SITENAME': 'Datos Abiertos 500',
+        'THEME_STATIC_DIR': 'theme',
     },
     'it': {
-        'SITENAME': '???',
+        'THEME_STATIC_DIR': 'theme',
     },
     'kr': {
-        'SITENAME': '???',
+        'THEME_STATIC_DIR': 'theme',
     },
 }
 

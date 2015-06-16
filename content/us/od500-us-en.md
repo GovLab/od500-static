@@ -1,10 +1,9 @@
 Title: Open Data 500 U.S.
 date: 2015-06-11
-lang: en
 URL: us/
+lang: en
 tags: od500 us,
-slug: od500us
-save_as: us/index.html
+save_as: en/us/index.html
 
 ---
 
