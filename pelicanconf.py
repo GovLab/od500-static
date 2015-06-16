@@ -44,18 +44,17 @@ I18N_SUBSITES = {
 COUNTRIES = {
     'us': {
         'name': u'United States',
-        'language': u'en',
     },
     'mx': {
         'name': u'Mexico',
-        'language': u'es',
     },
     'it': {
         'name': u'Italy',
-        'language': u'it',
     },
     'kr': {
         'name': u'Korea',
-        'language': u'kr',
+    },
+    'au': {
+        'name': u'Australia',
     },
 }
