@@ -16,12 +16,17 @@ understanding the economic and social impact of open government
 data be generated.</p>
 
 <div class="country-selector">
-{% for category, articles in categories %}
-<div class="col-xs-4 flag flag-{{ category }}">
+  {% for category, articles in categories %}
   <a href="{{ SITEURL }}/{{ category.url }}">
-    <h2>{{ category }}</h2>
+    <div class="col-sm-4 flag flag-{{ category }}">
+      <h2>{{ COUNTRIES.get(category.name).name }}</h2>
+    </div>
   </a>
-</div>
-{% endfor %}
+  {% endfor %}
+  <a href="mailto:opendata500@thegovlab.org?subject=OD500+in+my+country">
+    <div class="col-sm-4 flag in-your-country">
+      <h2>OD500 in Your Country</h2>
+    </div>
+  </a>
 </div>
 {% endblock %}

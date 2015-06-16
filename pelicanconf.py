@@ -2,6 +2,8 @@
 Pelican theme for OD500
 '''
 
+from iso3166 import countries
+
 THEME = 'themes/od500'
 SITENAME = "Open Data 500"
 
@@ -31,3 +33,5 @@ I18N_SUBSITES = {
         'SITENAME': '???',
     },
 }
+
+COUNTRIES = countries
