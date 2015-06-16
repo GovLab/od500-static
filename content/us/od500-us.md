@@ -20,12 +20,15 @@ and services.
 # How To Participate
 
 1. Take the Survey
-   * Fill out the survey and tell us about your company's use of open data.
+
+    * Fill out the survey and tell us about your company's use of open data.
 
 2. Edit a Profile
-   * If you'd like to edit your company's profile, send us an
-     [email](mailto:opendata500@thegovlab.org)
+
+    * If you'd like to edit your company's profile, send us an
+      [email](mailto:opendata500@thegovlab.org)
 
 3. Join the Conversation
-   * Follow us on [Twitter](http://www.twitter.com/opendata500) or send us an
-     [email](mailto:opendata500@thegovlab.org).
+
+    * Follow us on [Twitter](http://www.twitter.com/opendata500) or send us an
+      [email](mailto:opendata500@thegovlab.org).
