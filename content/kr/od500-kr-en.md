@@ -1,7 +1,7 @@
 Title: Open Data 500 Korea
 date: 2015-06-11
 lang: en
-URL: kr/
+URL: /en/kr/
 tags: od500 kr,
 slug: od500kr
 save_as: en/kr/index.html
