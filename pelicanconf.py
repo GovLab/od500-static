@@ -22,7 +22,8 @@ I18N_UNTRANSLATED_ARTICLES = 'keep'
 CATEGORY_URL = '{slug}/'
 CATEGORY_SAVE_AS = '{slug}/index_ignore.html'
 
-ARTICLE_URL = '{category}/{slug}/'
+ARTICLE_URL = '/{lang}/{category}/{slug}/'
+ARTICLE_LANG_URL = '/{lang}/{category}/{slug}/'
 ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
 
 INDEX_SAVE_AS = 'index_ignore.html'

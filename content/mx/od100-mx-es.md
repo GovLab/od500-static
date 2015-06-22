@@ -4,7 +4,7 @@ lang: es
 URL: /es/mx/
 tags: od100 mx,
 slug: od100mx
-save_as: es/mx/index.html
+save_as: mx/index.html
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/ljuclmBfAQQ" frameborder="0" allowfullscreen></iframe>
 

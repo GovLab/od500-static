@@ -3,6 +3,7 @@ date: 2015-06-11
 lang: en
 tags: about
 slug: about
+save_as: us/about/index.html
 
 # About the Open Data 500
 

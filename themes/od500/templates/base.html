@@ -102,7 +102,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ DEFAULT_LANG }}<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 {% for translation in article.translations %}
-                <li><a href="{{ SITEURL }}/{{ translation.url }}">{{ translation.lang }}</a></li>
+                <li><a href="{{ main_siteurl }}{{ translation.url }}">{{ translation.lang }}</a></li>
                 {% endfor %}
                 {#
                 <li><a href="#">Action</a></li>
