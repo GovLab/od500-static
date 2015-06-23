@@ -2,7 +2,7 @@ Title: Open Data 500 Australia
 date: 2015-06-11
 lang: en
 URL: /en/au/
-tags: od500 au,
+tags: od500 au
 slug: od500au
 save_as: au/index.html
 

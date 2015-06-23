@@ -2,7 +2,7 @@ Title: datos abiertos
 date: 2015-06-11
 lang: es
 URL: /es/mx/
-tags: od100 mx,
+tags: od100 mx
 slug: od100mx
 save_as: mx/index.html
 

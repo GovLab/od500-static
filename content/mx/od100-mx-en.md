@@ -2,7 +2,7 @@ Title: Open Data 100 Mexico
 date: 2015-06-11
 lang: en
 URL: /en/mx/
-tags: od100 mx,
+tags: od100 mx
 slug: od100mx
 save_as: mx/index.html
 
