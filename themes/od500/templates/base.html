@@ -3,7 +3,7 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
         {% block head %}
-        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}{% if article %} - {{ article.title }}{% endif %}</title>
         <meta charset="utf-8" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
@@ -65,19 +65,32 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav navbar-articles">
             {%- for tag, articles in tags|sort %}
               {% if articles|count  == 1 %}
-              {% set a = articles[0] %}
+                {% set a = articles[0] %}
                 {% if article and a.category == article.category %}
-                <a href="{{ a.url }}">{{tag}}</a>
+                <li>
+                  <a href="{{ a.url }}">{{ tag }}</a>
+                </li>
                 {% endif %}
               {% else %}
-
+                {% if article and articles[0].category == article.category %}
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    {{ tag }}
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    {% for a in articles %}
+                      <li>
+                        <a href="{{ a.url }}">{{ a.dropdown_title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                {% endif %}
               {% endif %}
-              {#
-              <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
-              #}
             {% endfor %}
           </ul>
             {#

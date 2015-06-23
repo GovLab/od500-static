@@ -22,3 +22,6 @@ msgstr "이탈리아"
 
 msgid "Australia"
 msgstr "호주"
+
+msgid "Korea"
+msgstr "한국"
