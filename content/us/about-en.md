@@ -1,11 +1,9 @@
-Title: About the OD500 US
+Title: About the Open Data 500 US
 date: 2015-06-11
 lang: en
 tags: about
 slug: about
 save_as: us/about/index.html
-
-# About the Open Data 500
 
 The Open Data 500 is the first comprehensive study of U.S. companies that use
 open government data to generate new business and develop new products and

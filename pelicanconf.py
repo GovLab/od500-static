@@ -17,6 +17,7 @@ I18N_GETTEXT_LOCALEDIR = 'themes/od500/translations'
 I18N_GETTEXT_DOMAIN = 'messages'
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 
+STATIC_PATHS = ['data']
 
 # Country -> category
 CATEGORY_URL = '{slug}/'
@@ -30,22 +31,10 @@ INDEX_SAVE_AS = 'index_ignore.html'
 
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
-    'en': {
-        #'THEME_STATIC_PATHS': ['/theme/theme'],
-        #'THEME_STATIC_DIR': 'theme/theme'
-    },
-    'es': {
-        #'THEME_STATIC_PATHS': ['/theme/theme'],
-        #'THEME_STATIC_DIR': 'theme/theme'
-    },
-    'it': {
-        #'THEME_STATIC_PATHS': ['/theme/theme'],
-        #'THEME_STATIC_DIR': 'theme/theme'
-    },
-    'kr': {
-        #'THEME_STATIC_PATHS': ['/theme/theme'],
-        #'THEME_STATIC_DIR': 'theme/theme'
-    },
+    'en': {},
+    'es': {},
+    'it': {},
+    'kr': {},
 }
 
 COUNTRIES = {
