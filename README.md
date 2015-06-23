@@ -2,9 +2,12 @@
 
 ### Building
 
-You'll need to install the requirements in a virtualenv:
+You'll need to install the requirements in a virtualenv, and pull down the
+`pelican-plugins` submodule.
 
     pip install -r requirements.txt
+    git submodule init
+    git submodule update
 
 Then you can build into `content`:
 
