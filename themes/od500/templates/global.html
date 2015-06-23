@@ -3,12 +3,15 @@
 {% block content %}
 {{ super() }}
 
-<div class="country-selector">
+<div>
   {% for category, articles in categories %}
     {% if category in COUNTRIES %}
       {% set country = COUNTRIES.get(category.name) %}
       <a href="{{ SITEURL }}/{{ category.url }}">
-        <div class="col-sm-4 flag flag-{{ category }}">
+        <div class="col-sm-4 text-center">
+          <div class="flag flag-{{ category }}">
+            <div></div>
+          </div>
           <h2>
             {{ gettext(country.name) }}
           </h2>
@@ -17,9 +20,21 @@
     {% endif %}
   {% endfor %}
   <a href="mailto:opendata500@thegovlab.org?subject=OD500+in+my+country">
-    <div class="col-sm-4 flag in-your-country">
-      <h2>OD500 in Your Country</h2>
+    <div class="col-sm-4 text-center">
+      <div class="flag in-your-country center-block">
+        <div></div>
+      </div>
+      <h2>{{ gettext('OD500 in Your Country') }}</h2>
     </div>
   </a>
+</div>
+
+<div class="col-xs-12">
+  <p><a class="m-button" href="mailto:opendata500@thegovlab.org">
+    <button>
+      {{ gettext('To find out how to conduct a study in your country,' ) }}<br />
+      {{ gettext('please contact us at The GovLab at NYU.') }}
+    </button>
+  </a></p>
 </div>
 {% endblock content %}
