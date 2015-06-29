@@ -140,3 +140,85 @@ footer {
     footer .creative-commons-license img {
       float: left;
       margin-right: 10px; }
+
+/*----------------------------CHORD DIAGRAM-----------------*/
+/*#chart {
+  text-align: left;
+}
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+path.chord {
+
+}*/
+
+#circle:hover path {
+  pointer-events: all;
+  fill-opacity: 1;
+  -webkit-transition: fill-opacity .2s ease;
+  -moz-transition: fill-opacity .2s ease;
+  -ms-transition: fill-opacity .2s ease;
+  -o-transition: fill-opacity .2s ease;
+  transition: fill-opacity .2s ease;
+
+}
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.group path {
+  fill-opacity: .5;
+}
+
+path.chord {
+
+}
+
+#circle:hover path.fade {
+  /*display: none;*/
+  pointer-events: none;
+  fill-opacity: 0;
+  -webkit-transition: fill-opacity .2s ease;
+  -moz-transition: fill-opacity .2s ease;
+  -ms-transition: fill-opacity .2s ease;
+  -o-transition: fill-opacity .2s ease;
+  transition: fill-opacity .2s ease;
+}
+
+#chord-chart-container {
+  text-align: center;
+  position: relative;
+font-size: 12px;
+
+}
+  #chord-chart-container h3 {
+    font-weight: 100;
+    font-family: "Exo", sans-serif;
+    font-size: 2em; /**changed from 2em **/
+    margin-top: 15px; 
+    }
+  #chord-chart-container .chord-legend {
+    font-weight: 400;
+    font-family: "Exo", sans-serif;
+    font-size: 18px;
+    position: absolute;
+    color: #472b74;
+    top: 460px; }
+  #chord-chart-container .chord-legend.companies {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    left: -30px;
+    color: #8eab6f; }
+  #chord-chart-container .chord-legend.agencies {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: -30px; }
