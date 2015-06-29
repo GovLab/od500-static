@@ -115,7 +115,9 @@ function draw_diagram(data) {
 
 }
 
-d3.json($('#chord-chart').data('matrix-json'), function(error, json) {
-    if (error) return console.warn(error);
-    draw_diagram(json);
+$(window).load(function () {
+  d3.json($('#chord-chart').data('matrix-json'), function(error, json) {
+      if (error) return console.warn(error);
+      draw_diagram(json);
+  });
 });

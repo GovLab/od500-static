@@ -3,24 +3,36 @@
 /** HEADERS **/
 
 h1 {
-  font-family: "Exo", sans-serif !important; /*changed from Exo TEST */
-  font-weight: 300; /*changed from 300 TEST */
+  font-family: "Exo", sans-serif !important;
+  font-weight: 300 !important;
   font-size: 3.5em;
   line-height: 1.2em;
   margin-bottom: 30px;
   text-align: center;
   } /*changed from 30px */
 
+#index h1:first-of-type {
+  margin: 25px 0 30px 0;
+  font-size: 5.5em; }
+
+#index h1 {
+  margin: 25px 0 30px 0;
+  font-size: 3.8em; }
+
 h2 {
-  font-family: "Exo", sans-serif !important; /*changed from Exo TEST*/
-  font-weight: 500; /*changed from 500 TEST */
+  font-family: "Exo", sans-serif !important;
+  font-weight: 500 !important;
   font-size: 2.5em;
-  line-height: 1em; }
+  line-height: 1em;
+  text-align: center; }
 
 h3 {
-  color: #472b74;
-  font-size: 1.6em;
-  line-height: 1em; }
+  font-family: "Exo", sans-serif !important;
+  font-weight: 100 !important;
+  /*font-size: 1.6em;*/
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center; }
 
 /** NAVBAR **/
 
@@ -44,6 +56,13 @@ ul.navbar-articles {
   ul.navbar-articles li.dropdown.open > a {
     background: #8977A7 !important; }
 
+
+/** HOW TO PARTICIPATE **/
+
+#index ol {
+  display: inline-block; }
+#index ol li {
+  }
 
 
 /** LOGOS **/
@@ -188,26 +207,20 @@ path.chord {
   transition: fill-opacity .2s ease;
 }
 
-#chord-chart-container {
+#chord-chart {
   text-align: center;
   position: relative;
 font-size: 12px;
 
 }
-  #chord-chart-container h3 {
-    font-weight: 100;
-    font-family: "Exo", sans-serif;
-    font-size: 2em; /**changed from 2em **/
-    margin-top: 15px; 
-    }
-  #chord-chart-container .chord-legend {
+  #chord-chart .chord-legend {
     font-weight: 400;
     font-family: "Exo", sans-serif;
     font-size: 18px;
     position: absolute;
     color: #472b74;
     top: 460px; }
-  #chord-chart-container .chord-legend.companies {
+  #chord-chart .chord-legend.companies {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
@@ -215,10 +228,41 @@ font-size: 12px;
     transform: rotate(-90deg);
     left: -30px;
     color: #8eab6f; }
-  #chord-chart-container .chord-legend.agencies {
+  #chord-chart .chord-legend.agencies {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
     right: -30px; }
+
+/** "How to participate" section on country landing pages **/
+.homepage-box-step {
+  display: inline-block;
+  width: 280px;
+  margin-right: 26px;
+  font-family: "HelveticaNeue-Light", sans-serif;
+  border: 1px solid #8977a7;
+  padding: 10px; }
+  .homepage-box-step h2 {
+    text-align: center;
+    font-size: 36px;
+    vertical-align: middle;
+    font-weight: 100 !important;
+    color: #8977a7;
+    width: 40px;
+    height: 40px;
+    margin: -35px auto 0;
+    background-color: #472b74;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  .homepage-box-step h3 {
+    margin-top: 15px;
+    font-weight: 400 !important;
+    text-align: center; }
+  .homepage-box-step p {
+    font-size: 16px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    line-height: 1.5em;
+    font-weight: 300; }
