@@ -17,6 +17,8 @@
   "dependencies": {
     "jquery": "2.1.4",
     "bootstrap": "3.3.4",
-    "d3": "3.5.5"
+    "d3": "3.5.5",
+    "isotope": "2.2.0",
+    "spin": "1.2.6"
   }
 }

@@ -1,6 +1,5 @@
 # 
-msgid ""
-msgstr ""
+msgid "" msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: john@thegovlab.org\n"
 "PO-Revision-Date: 2015-06-15 14:00+0100\n"
@@ -10,6 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+# Countries 
 
 msgid "United States"
 msgstr "Estados Unidos"
@@ -22,3 +23,59 @@ msgstr "Italia"
 
 msgid "Australia"
 msgstr "Australia"
+
+# Categories
+
+msgid "Business Services"
+msgstr "Servicios Empresariales"
+
+msgid "Data/Technology"
+msgstr "Tecnología/Datos"
+
+msgid "Education"
+msgstr "Educación"
+
+msgid "Energy"
+msgstr "Energía"
+
+msgid "Environment & Weather"
+msgstr "Clima y Medio Ambiente"
+
+msgid "Finance & Investment"
+msgstr "Finanzas e Inversiones"
+
+msgid "Food & Agriculture"
+msgstr "Agricultura y Alimentación"
+
+msgid "Geospatial/Mapping"
+msgstr "Mapeo/Geoespacial"
+
+msgid "Governance"
+msgstr "Gobierno"
+
+msgid "Healthcare"
+msgstr "Salud"
+
+msgid "Housing/Real Estate"
+msgstr "Vivienda/Bienes Raíces"
+
+msgid "Insurance"
+msgstr "Seguros"
+
+msgid "Legal Services"
+msgstr "Servicios Legales"
+
+msgid "Lifestyle & Consumer"
+msgstr "Estilos de vida y Consumidores"
+
+msgid "Media & Communications"
+msgstr "Medios y Comunicación"
+
+msgid "Research & Consulting"
+msgstr "Investigación y Consultoría"
+
+msgid "Scientific Research"
+msgstr "Investigación Científica"
+
+msgid "Transportation"
+msgstr "Transporte"
