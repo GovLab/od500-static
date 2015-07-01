@@ -7,14 +7,21 @@
 {% set country = COUNTRIES[category.name] %}
 {#{% set agencies = AGENCIES|selectattr('country', category.name) %}#}
 {#{% set companies = COMPANIES|selectattr('country', category.name) %}#}
+<div id="download-data" class="m-download-data">
+  <strong>{{ gettext('Download the Datasets') }}</strong>
+  <span>{{ gettext('All Companies') }}:</span>
+  <a href="/us/download/us_companies.csv">CSV</a>
+  <span>{{ gettext('Agencies and Datasets') }}:</span>
+  <a href="/us/download/us_agencies.csv">CSV</a>
+</div>
 
 <div class="m-candidates">
   <div class="m-filter-menu">
-    <h3>Federal Agency</h3>
+    <h3>{{ gettext('Federal Agency') }}</h3>
     <div id="filters-agency" class="m-candidates-buttons button-group" data-toggle="buttons-checkbox" data-filter-group="category">
-      <button data-filter="*">Clear Filter</button>
-      {% for agency in AGENCIES %}
-        {% if agency['country'] == countryname %}
+      <button data-filter="*">{{ gettext('Clear Filter') }}</button>
+      {% for agency in country.agencies %}
+        {% if agency['country'] == countryname and agency['dataType'] == 'Federal' %}
           {% if agency.name|replace("Department", "Dept.")|replace("Development", "Dev.")|length > 32 and agency.abbrev %}
             <button data-filter=".{{agency.prettyName}}">{{ agency.abbrev }}</button>
           {% else %}
@@ -26,9 +33,9 @@
   </div>
 
   <div class="m-filter-menu">
-    <h3>Sector</h3> <div id="filters-category" class="m-candidates-buttons button-group" data-toggle="buttons-checkbox" data-filter-group="category"> <button data-filter="*">Clear Filter</button>
+    <h3>{{ gettext('Sector') }}</h3> <div id="filters-category" class="m-candidates-buttons button-group" data-toggle="buttons-checkbox" data-filter-group="category"> <button data-filter="*">{{ gettext('Clear Filter') }}</button>
       {% for cat in country['categories'] %}
-        <button data-filter=".{{ cat|slugify }}">{{ cat }}</button>
+        <button data-filter=".{{ cat|slugify }}">{{ gettext(cat) }}</button>
       {#<button data-filter=".{{ re.sub(r'([^\s\w])+', '', cat).replace(" ", "-").lower() }}">{{ cat }}</button>#}
       {% endfor %}
     </div>
@@ -37,22 +44,22 @@
 
   <div class="button-group legend" id="legend">
     <div class="filter-by">
-      <span>Filter by:  </span>
+      <span>{{ gettext('Filter by') }}:</span>
     </div>
     <div class="data-filters">
       <div class="survey-filter" data-filter-group="survey">
-        <button class="color survey" data-filter=".survey-company">Submitted Survey</button>
-        <button class="color candidate" data-filter=":not(.survey-company)">No Survey Submitted</button>
-        <button class="color all" data-filter="*">Clear Filter</button><br>
+        <button class="color survey" data-filter=".survey-company">{{ gettext('Submitted Survey') }}</button>
+        <button class="color candidate" data-filter=":not(.survey-company)">{{ gettext('No Survey Submitted') }}</button>
+        <button class="color all" data-filter="*">{{ gettext('Clear Filter') }}</button><br>
       </div>
       <div class="company-type-filter" data-filter-group="company-type">
-        <button class="color public" data-filter=".public">Public</button>
-        <button class="color private" data-filter=".private">Private</button>
-        <button class="color private" data-filter=".nonprofit">Non-profit</button>
-        <button class="color non-profit" data-filter=":not(.nonprofit, .private, .public)">Other</button>
-        <button class="color all" data-filter="*">Clear Filter</button><br>
+        <button class="color public" data-filter=".public">{{ gettext('Public') }}</button>
+        <button class="color private" data-filter=".private">{{ gettext('Private') }}</button>
+        <button class="color private" data-filter=".nonprofit">{{ gettext('Non-profit') }}</button>
+        <button class="color non-profit" data-filter=":not(.nonprofit, .private, .public)">{{ gettext('Other') }}</button>
+        <button class="color all" data-filter="*">{{ gettext('Clear Filter') }}</button><br>
       </div>
-      <button class="clear-all-filters">Clear All Filters</button>
+      <button class="clear-all-filters">{{ gettext('Clear All Filters') }}</button>
     </div>
   </div>
 
@@ -61,9 +68,9 @@
     {% for company in COMPANIES %}
       {% if company.country == countryname %}
         <div class="m-candidates-item{%for f in company.filters %} {{ f }}{%endfor%}">
-          <a href="/{{company.country}}/{{company.prettyName}}"><h3><strong>{{ company.companyName }}</strong></h3></a>
+          <a href="/{{company.country}}/{{ SITE_LANG }}/{{company.prettyName}}"><h3><strong>{{ company.companyName }}</strong></h3></a>
           {#<p class="m-homepage-list-location"> {%try%}{{ states[country][company.state] }}{%except%}{%end%}</p>#}
-          <em>{{ company.companyCategory }}</em>
+          <em>{{ gettext(company.companyCategory) }}</em>
           <p class="m-homepage-list-desc">{{ company.descriptionShort }}</p>
         </div>
       {% endif %}
@@ -71,8 +78,13 @@
   </div>
 </div>
 
+<script>
+  var chartTitleText = "{{ gettext('Filter By State') }}";
+  var statesForMap = {{ country.states_for_map }};
+  var country = "{{ countryname }}";
+</script>
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/d3/d3.min.js"></script>
-<!--<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/queue.v1.min.js"></script>-->
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/queue.v1.min.js"></script>
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/bower_components/spin/javascripts/jquery.spin.js"></script>
 <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/list.js"></script>

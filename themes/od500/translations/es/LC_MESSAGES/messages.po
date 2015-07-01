@@ -1,5 +1,6 @@
 # 
-msgid "" msgstr ""
+msgid ""
+msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: john@thegovlab.org\n"
 "PO-Revision-Date: 2015-06-15 14:00+0100\n"
@@ -10,7 +11,7 @@ msgid "" msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# Countries 
+# Countries
 
 msgid "United States"
 msgstr "Estados Unidos"
@@ -79,3 +80,50 @@ msgstr "Investigación Científica"
 
 msgid "Transportation"
 msgstr "Transporte"
+
+# Full List
+
+msgid "Download the Datasets"
+msgstr "Descargar Datos"
+
+msgid "All Companies"
+msgstr "Todas las compañías"
+
+msgid "Agencies and Datasets"
+msgstr "Entidades y conjuntos de datos"
+
+msgid "Clear Filter"
+msgstr "Borrar filtro"
+
+msgid "Filter by"
+msgstr "Filtrar por"
+
+msgid "Submitted Survey"
+msgstr "Encuesta rellenada"
+
+msgid "No Survey Submitted"
+msgstr "Encuesta pendiente"
+
+msgid "Public"
+msgstr "Pública"
+
+msgid "Private"
+msgstr "Privada"
+
+msgid "Non-profit"
+msgstr "Sin Fines de Lucro"
+
+msgid "Other"
+msgstr "Otro"
+
+msgid "Clear All Filters"
+msgstr "Borrar todos los filtros"
+
+msgid "Filter By State"
+msgstr "Filtrar por estado"
+
+msgid "Sector"
+msgstr "Categoría"
+
+msgid "Federal Agency"
+msgstr "Secretaría"

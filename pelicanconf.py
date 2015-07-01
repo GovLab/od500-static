@@ -16,7 +16,7 @@ PLUGINS = ['i18n_subsites', 'remove_original_lang']
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 JINJA_FILTERS = {
-  'slugify': slugify
+    'slugify': slugify
 }
 I18N_GETTEXT_NEWSTYLE = True
 I18N_GETTEXT_LOCALEDIR = 'themes/od500/translations'
@@ -49,6 +49,39 @@ with open('content/data/company.json', 'r') as f:
 with open('content/data/agency.json', 'r') as f:
     AGENCIES = json.load(f)
 
+with open('content/data/stats.json', 'r') as f:
+    STATS = json.load(f)
+
+
+def states_for_map(country):
+    '''
+    Return state data for the specified country.
+    '''
+    try:
+        states = [s for s in STATS if s['country'] == country][0]['states']
+    except IndexError:
+        return []
+    #abbrev, STATE, VALUE
+    #state_counts = []
+    state_data = []
+    for state in states:
+        state_data.append({
+            "abbrev":state['abbrev'].encode('utf-8'),
+            "STATE":state['name'].encode('utf-8'),
+            "VALUE":state['count']
+        })
+    return state_data
+
+
+def agencies_for_country(country):
+    '''
+    Return top 16 agency data for a country.
+    '''
+    return sorted(
+        [a for a in AGENCIES if a['country'] == country and a['dataType'] == 'Federal'],
+        key=lambda a: a.get('usedBy_count', 0), reverse=True
+    )[0:16]
+
 COUNTRIES = {
     'us': {
         'name': u'United States',
@@ -78,7 +111,7 @@ COUNTRIES = {
             "UT": "Utah", "VT": "Vermont", "VA": "Virginia", "WA": "Washington",
             "WV": "West Virginia", "WI": "Wisconsin", "WY": "Wyoming",
             "PR": "Puerto Rico"
-        }
+        },
     },
     'mx': {
         'name': u'Mexico',
@@ -103,6 +136,8 @@ COUNTRIES = {
             "SL":"Sinaloa", "SR":"Sonora", "TC":"Tabasco", "TS":"Tamaulipas",
             "TL":"Tlaxcala", "VZ":"Veracruz", "YN":"Yucatán", "ZS":"Zacatecas"
         },
+        'agencies': agencies_for_country('mx'),
+        'states_for_map': states_for_map('mx'),
     },
     'it': {
         'name': u'Italy',
@@ -128,3 +163,13 @@ COUNTRIES = {
         }
     },
 }
+
+def process_countries():
+    '''
+    Add additional data to COUNTRIES
+    '''
+    for code, country in COUNTRIES.iteritems():
+        country['agencies'] = agencies_for_country(code)
+        country['states_for_map'] = json.dumps(states_for_map(code))
+
+process_countries()

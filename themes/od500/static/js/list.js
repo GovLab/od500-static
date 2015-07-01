@@ -106,7 +106,7 @@
     // userData = JSON.parse(userData)
     // data = userData
 
-    var data = {{states_for_map}}
+    var data = statesForMap;
 
     createChart = function(){
         var hoverDisplay = "State &amp; Value".replace('&amp;', '&')
@@ -129,7 +129,7 @@
         this.LineColor = '#888';
         //Labels
         this.ChartTitle = true;
-        this.ChartTitleText = 'Filter By State';
+        this.ChartTitleText = chartTitleText;
         this.ChartTitleXLocation = 'Center';
         this.ChartTitleYLocation = 0;
         this.ChartTitleFont = 'Arial';
@@ -222,7 +222,7 @@
                 .style("color", hoverLabelColor);
                 
             queue()
-                .defer(d3.json, "{{ static_url("files/us_states.json") }}")
+                .defer(d3.json, "/data/" + country + "_states.json")
                 .await(ready);
                 
             var numberFormat = d3.format("0,000");
