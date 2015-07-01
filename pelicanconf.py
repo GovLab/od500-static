@@ -136,8 +136,6 @@ COUNTRIES = {
             "SL":"Sinaloa", "SR":"Sonora", "TC":"Tabasco", "TS":"Tamaulipas",
             "TL":"Tlaxcala", "VZ":"Veracruz", "YN":"Yucatán", "ZS":"Zacatecas"
         },
-        'agencies': agencies_for_country('mx'),
-        'states_for_map': states_for_map('mx'),
     },
     'it': {
         'name': u'Italy',

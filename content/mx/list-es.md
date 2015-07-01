@@ -4,5 +4,3 @@ lang: es
 tags: compañías
 slug: list
 template: full_list
-
-
