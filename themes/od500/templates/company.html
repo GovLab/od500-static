@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+{% block head %}
+  {{ super() }}
+
+{% endblock %}
+
+{% block content %}
+
+<section id="content" class="body">
+  <div class="m-list-company-full">
+    <div class="m-half">
+      <h3>Company Information</h3>
+      <p><strong>URL: </strong>{% if company.url %}
+        <a href="{% if 'http' in company.url %}{{company.url}}{%else%}http://{{company.url}}{%endif%}">{{company.url}}{%else%}Not Available{%endif%}</a></p>
+      <p><strong>Year Founded: </strong>
+        {% if company.yearFounded %}{{company.yearFounded}}{%else%}Not Available{%endif%}</p>
+      <p><strong>Location: </strong>
+        {% if company.city %} {{company.city}}, {{company.state}}{%else%}{{company.state}}{%endif%}</p>
+      <p><strong>Zip Code: </strong>
+        {% if company.zipCode %}{{company.zipCode}}{%else%}Not Available{%endif%}</p>
+      <p><strong>Full-Time Employees: </strong>
+        {% if company.fte %} {{company.fte}}{%else%}Not Available{%endif%}</p>
+      <p><strong>Type of Company: </strong>
+        {% if company.companyType %} {{company.companyType}}{%else%}Not Available{%endif%}</p>
+      <p><strong>Target Markets: </strong>
+        {% if company.businessModel %}{{', '.join(company.businessModel)}}{%else%}Not Available{%endif%}</p>
+      <p><strong>Category: </strong>
+        {{company.companyCategory}}</p>
+      <p><strong>Sources of Revenue: </strong>
+        {% if company.revenueSource|length > 0 %}{% if company.revenueSource[0] %}{{ ", ".join(company.revenueSource) }}{%else%}Not Available{%endif%}{%else%}Not Available{%endif%}</p>
+      <p><strong>Areas of social impact: </strong>
+        {% if company.socialImpact|length > 0 %}{% if company.socialImpact[0] %}{{ ", ".join(company.socialImpact) }}{%else%}Not Available{%endif%}{%else%}Not Available{%endif%}</p>
+      {% if company.sourceCount == "NA" %}
+        <p><strong>Approximate number of sources of government open data: </strong>Not Available
+      {% elif company.sourceCount %}
+        <p><strong>Approximate number of sources of government open data: </strong>{{company.sourceCount}} Agencies/Local Governments/Organizations
+      {% else %}
+        <p><strong>Approximate number of sources of government open data: </strong>Not Available
+      {% endif %}</p>
+    </div>
+    <div class="m-half">
+      <h3>Description:</h3>
+      <p>{% if company.description %}{{company.description}}{%else%}Not Available{%endif%}</p>
+    </div>
+  <div class="m-full datasets">
+    <h3>Agency and Data Information</h3>
+    {% if company.agencies %}
+      {%for a in company.agencies %}
+        <div class="company-view-agency-list">
+          <ul>
+            <li><h3>{%if a.url %}<a href="{% if 'http' in a.url %}{{a.url}}{%else%}http://{{a.url}}{%endif%}">{{a.name}}</a>{%else%}{{a.name}}{%endif%}</h3></li>
+            <div class="company-view-agency-name">
+              {% for d in a.datasets %} 
+                {% if d.usedBy == company %}
+                  <ul>
+                    {% if d.datasetURL %}
+                      <li><a href="{% if 'http' in d.datasetURL %}{{d.datasetURL}}{%else%}http://{{d.datasetURL}}{%endif%}">{{ d.datasetName }}</a></li>
+                    {% else %}
+                      <li>{{ d.datasetName }}</li>
+                    {% endif %}
+                  </ul>
+                {%endif%}
+              {% endfor %}
+              <ul>
+                {% for s in a.subagencies %}
+                  {% if company in s.usedBy %}
+                    <li><h3><a href="{% if 'http' in s.url %}{{s.url}}{%else%}http://{{s.url}}{%endif%}">{{s.name}}</a></h3></li>
+                    <ul>
+                      {% for d in s.datasets %}
+                        {% if company == d.usedBy %}
+                          <li><a href="{% if 'http' in d.datasetURL %}{{s.url}}{%else%}http://{{d.datasetURL}}{%endif%}">{{d.datasetName}}</a></li>
+                        {%endif%}
+                      {%endfor%}
+                    </ul>
+                  {%endif%}
+                {%endfor%}
+              </ul>
+            </div>
+          </ul>
+        </div>
+      {% endfor %}
+    {%else%}
+      <p>None Available</p>
+    {% endif %}
+  </div>
+  </div>
+</section>
+
+{% endblock %}

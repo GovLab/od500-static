@@ -68,7 +68,7 @@
     {% for company in COMPANIES %}
       {% if company.country == countryname %}
         <div class="m-candidates-item{%for f in company.filters %} {{ f }}{%endfor%}">
-          <a href="/{{company.country}}/{{ SITE_LANG }}/{{company.prettyName}}"><h3><strong>{{ company.companyName }}</strong></h3></a>
+          <a href="/{{DEFAULT_LANG}}/{{company.country}}/companies/{{company.prettyName}}"><h3><strong>{{ company.companyName }}</strong></h3></a>
           {#<p class="m-homepage-list-location"> {%try%}{{ states[country][company.state] }}{%except%}{%end%}</p>#}
           <em>{{ gettext(company.companyCategory) }}</em>
           <p class="m-homepage-list-desc">{{ company.descriptionShort }}</p>

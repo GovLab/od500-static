@@ -12,7 +12,7 @@ SITENAME = "Open Data 500"
 SITEURL = "http://localhost:8000/"
 
 PLUGIN_PATHS = ['pelican-plugins', 'plugins']
-PLUGINS = ['i18n_subsites', 'remove_original_lang']
+PLUGINS = ['i18n_subsites', 'remove_original_lang', 'generate_companies']
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 JINJA_FILTERS = {
@@ -32,6 +32,10 @@ CATEGORY_SAVE_AS = '{slug}/index_ignore.html'
 ARTICLE_URL = '/{lang}/{category}/{slug}/'
 ARTICLE_LANG_URL = '/{lang}/{category}/{slug}/'
 ARTICLE_SAVE_AS = '{category}/{slug}/index.html'
+
+COMPANY_URL = '/{country}/companies/{slug}/'
+COMPANY_SAVE_AS = '{country}/companies/{slug}/index.html'
+#COMPANY_LANG_SAVE_AS = '{country}/companies/{slug}/index.html'
 
 INDEX_SAVE_AS = 'index_ignore.html'
 
