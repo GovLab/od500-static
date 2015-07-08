@@ -1,6 +1,5 @@
 #!/bin/bash
 
-rm -rf output/
 python translate.py themes/od500/translations/
 pelican content/
 cp output/en/index.html output/index.html

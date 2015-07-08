@@ -53,7 +53,6 @@ class CompaniesGenerator(CachingGenerator):
                     company = Company(content='', metadata=metadata, settings=self.settings)
                     self.cache_data(path, company)
 
-                    # is this right, or should it be one level above?
                     self.companies.append(company)
 
                 self.add_source_path(company)
