@@ -1,4 +1,4 @@
-Title: OD500 Global Network
+Title: The OD500 Global Network
 date: 2015-06-11
 slug: global
 URL:
