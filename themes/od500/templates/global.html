@@ -1,6 +1,8 @@
 {% extends "article.html" %}
 
 {% block content %}
+<div class="parallax-bg"></div>
+
 {{ super() }}
 
 <div>
@@ -12,9 +14,7 @@
           <div class="flag flag-{{ category }}">
             <div></div>
           </div>
-          <h2>
-            {{ gettext(country.name) }}
-          </h2>
+          <h2>{{ gettext(country.name) }}</h2>
         </div>
       </a>
     {% endif %}
@@ -29,12 +29,10 @@
   </a>
 </div>
 
-<div class="col-xs-12">
+<div class="col-xs-12 text-center">
   <p><a class="m-button" href="mailto:opendata500@thegovlab.org">
-    <button>
-      {{ gettext('To find out how to conduct a study in your country,' ) }}<br />
-      {{ gettext('please contact us at The GovLab at NYU.') }}
-    </button>
+    {{ gettext('To find out how to conduct a study in your country,' ) }}<br />
+    {{ gettext('please contact us at The GovLab at NYU.') }}
   </a></p>
 </div>
 {% endblock content %}
