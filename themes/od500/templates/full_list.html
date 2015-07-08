@@ -65,7 +65,7 @@
 
   <div id="spinner"></div>
   <div class="m-candidates isotopes-container" data-isotope-options='{ "layoutMode": "fitColumns" }'>
-    {% for company in COMPANIES %}
+    {% for company in country.companies %}
       {% if company.country == countryname %}
         <div class="m-candidates-item{%for f in company.filters %} {{ f }}{%endfor%}">
           <a href="/{{DEFAULT_LANG}}/{{company.country}}/companies/{{company.prettyName}}"><h3><strong>{{ company.companyName }}</strong></h3></a>

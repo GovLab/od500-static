@@ -6,6 +6,20 @@ Pelican theme for OD500 '''
 import json
 from slugify import slugify
 
+CACHE_CONTENT = True
+CONTENT_CACHING_LAYER = 'generator'
+
+GZIP_CACHE = False
+#WITH_FUTURE_DATES = False
+
+READERS = {
+    'csv': None,
+    'json': None,
+    'zip': None,
+    'pdf': None,
+}
+
+STATIC_PATHS = ['content/data', 'data']
 THEME = 'themes/od500'
 
 SITENAME = "Open Data 500"
@@ -39,6 +53,8 @@ COMPANY_SAVE_AS = '{country}/companies/{slug}/index.html'
 
 INDEX_SAVE_AS = 'index_ignore.html'
 
+TIMEZONE = 'America/New_York'
+
 # mapping: language_code -> settings_overrides_dict
 I18N_SUBSITES = {
     'en': {},
@@ -47,22 +63,12 @@ I18N_SUBSITES = {
     'kr': {},
 }
 
-with open('content/data/company.json', 'r') as f:
-    COMPANIES = json.load(f)
-
-with open('content/data/agency.json', 'r') as f:
-    AGENCIES = json.load(f)
-
-with open('content/data/stats.json', 'r') as f:
-    STATS = json.load(f)
-
-
-def states_for_map(country):
+def states_for_map(stats, country):
     '''
     Return state data for the specified country.
     '''
     try:
-        states = [s for s in STATS if s['country'] == country][0]['states']
+        states = [s for s in stats if s['country'] == country][0]['states']
     except IndexError:
         return []
     #abbrev, STATE, VALUE
@@ -77,14 +83,15 @@ def states_for_map(country):
     return state_data
 
 
-def agencies_for_country(country):
+def agencies_for_country(agencies, country):
     '''
     Return top 16 agency data for a country.
     '''
     return sorted(
-        [a for a in AGENCIES if a['country'] == country and a['dataType'] == 'Federal'],
+        [a for a in agencies if a['country'] == country and a['dataType'] == 'Federal'],
         key=lambda a: a.get('usedBy_count', 0), reverse=True
     )[0:16]
+
 
 COUNTRIES = {
     'us': {
@@ -170,8 +177,18 @@ def process_countries():
     '''
     Add additional data to COUNTRIES
     '''
+    with open('content/data/agency.json', 'r') as f_agency:
+        agencies = json.load(f_agency)
+
+    with open('content/data/company.json', 'r') as f_company:
+        companies = json.load(f_company)
+
+    with open('content/data/stats.json', 'r') as f:
+        stats = json.load(f)
+
     for code, country in COUNTRIES.iteritems():
-        country['agencies'] = agencies_for_country(code)
-        country['states_for_map'] = json.dumps(states_for_map(code))
+        country['agencies'] = agencies_for_country(agencies, code)
+        country['states_for_map'] = json.dumps(states_for_map(stats, code))
+        country['companies'] = [c for c in companies if c['country'] == code]
 
 process_countries()

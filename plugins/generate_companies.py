@@ -31,25 +31,43 @@ class CompaniesGenerator(CachingGenerator):
         '''
         Generate company context.
         '''
-        companies = self.settings['COMPANIES']
+        paths = set()  # set used to prevent country/slug dupes from bad data
+        for _, country in self.settings['COUNTRIES'].iteritems():
+            for company in country['companies']:
+                country = company['country']
+                slug = slugify(company['prettyName'])
 
-        prevent_dupes = set()  # set used to prevent country/slug dupes from bad data
-        for company in companies:
-            country = company['country']
-            slug = slugify(company['prettyName'])
+                path = '{}/company/{}'.format(country, slug)
+                # Prevent duplicate slugs
+                if path in paths:
+                    continue
+                paths.add(path)
 
-            # Prevent duplicate slugs
-            if (country, slug,) in prevent_dupes:
-                continue
-            prevent_dupes.add((country, slug,))
+                company = self.get_cached_data(path, None)
+                if company is None:
+                    metadata = {
+                        'country': country,
+                        'slug': slug,
+                        'company': company
+                    }
+                    company = Company(content='', metadata=metadata, settings=self.settings)
+                    self.cache_data(path, company)
 
-            metadata = {
-                'country': country,
-                'slug': slug,
-                'company': company
-            }
-            self.companies.append(
-                Company(content='', metadata=metadata, settings=self.settings))
+                    # is this right, or should it be one level above?
+                    self.companies.append(company)
+
+                self.add_source_path(company)
+
+        self._update_context(('companies',))
+        self.save_cache()
+        self.readers.save_cache()
+
+
+    def _get_file_stamp(self, filename):
+        '''
+        Override file stamp function to just look at companies.csv
+        '''
+        return self._filestamp_func('content/data/company.json')
 
 
     def generate_output(self, writer):
