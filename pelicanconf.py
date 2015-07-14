@@ -8,9 +8,10 @@ from slugify import slugify
 
 CACHE_CONTENT = True
 CONTENT_CACHING_LAYER = 'generator'
+LOAD_CONTENT_CACHE = True
 
 GZIP_CACHE = False
-#WITH_FUTURE_DATES = False
+WITH_FUTURE_DATES = False
 
 READERS = {
     'csv': None,
@@ -26,7 +27,7 @@ SITENAME = "Open Data 500"
 SITEURL = "http://localhost:8000/"
 
 PLUGIN_PATHS = ['pelican-plugins', 'plugins']
-PLUGINS = ['i18n_subsites', 'remove_original_lang', 'generate_companies']
+PLUGINS = ['i18n_subsites', 'remove_original_lang', 'generate_companies', 'copy_bare_themes_data']
 
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 JINJA_FILTERS = {
@@ -183,8 +184,8 @@ def process_countries():
     with open('content/data/company.json', 'r') as f_company:
         companies = json.load(f_company)
 
-    with open('content/data/stats.json', 'r') as f:
-        stats = json.load(f)
+    with open('content/data/stats.json', 'r') as f_stats:
+        stats = json.load(f_stats)
 
     for code, country in COUNTRIES.iteritems():
         country['agencies'] = agencies_for_country(agencies, code)
