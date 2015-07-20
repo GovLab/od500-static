@@ -6,9 +6,9 @@ Pelican theme for OD500 '''
 import json
 from slugify import slugify
 
-CACHE_CONTENT = True
-CONTENT_CACHING_LAYER = 'generator'
-LOAD_CONTENT_CACHE = True
+CACHE_CONTENT = False
+#CONTENT_CACHING_LAYER = 'generator'
+#LOAD_CONTENT_CACHE = True
 
 GZIP_CACHE = False
 WITH_FUTURE_DATES = False
@@ -20,7 +20,6 @@ READERS = {
     'pdf': None,
 }
 
-STATIC_PATHS = ['content/data', 'data']
 THEME = 'themes/od500'
 
 SITENAME = "Open Data 500"
@@ -38,7 +37,7 @@ I18N_GETTEXT_LOCALEDIR = 'themes/od500/translations'
 I18N_GETTEXT_DOMAIN = 'messages'
 I18N_UNTRANSLATED_ARTICLES = 'keep'
 
-STATIC_PATHS = ['data']
+STATIC_PATHS = ['data', 'files']
 
 # Country -> category
 CATEGORY_URL = '{slug}/'

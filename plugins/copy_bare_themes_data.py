@@ -55,6 +55,8 @@ def copy_bare_themes_data(sender):
         #cp -R output/bare/data output/data
         copy_and_replace_dir(join(bare_path, 'data'), join(root_path, 'data'))
 
+        copy_and_replace_dir(join(bare_path, 'files'), join(root_path, 'files'))
+
 
 def register():
     '''
