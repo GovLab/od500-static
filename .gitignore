@@ -4,3 +4,4 @@ output
 .doit.db
 cache
 output
+node_modules

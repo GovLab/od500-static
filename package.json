@@ -1,0 +1,22 @@
+{
+  "name": "od500-static",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GovLab/od500-static.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/GovLab/od500-static/issues"
+  },
+  "dependencies": {
+    "gh-pages": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "~0.2.0"
+  }
+}

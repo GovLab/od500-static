@@ -8,6 +8,7 @@ You'll need to install the requirements in a virtualenv, and pull down the
     pip install -r requirements.txt
     git submodule init
     git submodule update
+    npm install
 
 Then you can build into `content`:
 
