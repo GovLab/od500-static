@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/es/" rel="alternate"></link><link href="http://localhost:8000/feeds/mx.atom.xml" rel="self"></link><id>http://localhost:8000/es/</id><updated>2015-06-11T00:00:00-04:00</updated><entry><title>Compañías participantes en Datos Abiertos 100 México</title><link href="http://localhost:8000/es//es/mx/list/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:es//es/mx/list/</id><summary type="html"></summary><category term="compañías"></category></entry><entry><title>datos abiertos</title><link href="http://localhost:8000/es//es/mx/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:es//es/mx/</id><summary type="html">&lt;iframe width="960" height="540" src="https://www.youtube.com/embed/ljuclmBfAQQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;title: Datos Abiertos 100 México&lt;/p&gt;
+&lt;p&gt;(brujula de datos abiertos iframe)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Acerca de esta iniciativa&lt;/h1&gt;
+&lt;p&gt;Como parte de la &lt;a href="http://datos.gob.mx/"&gt;política de Datos Abiertos&lt;/a&gt;,
+el Gobierno de la República colabora con The GovLab de la Universidad de Nueva
+York para realizar Datos Abiertos 100 México. Esta iniciativa es el primer
+estudio de las compañías y ONGs mexicanas que utilizan datos gubernamentales
+abiertos para crecer sus negocios, desarrollar nuevos productos y servicios,
+o impulsar el valor social.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Cómo participar&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Si representas una compañía u ONG que trabaja con Datos Abiertos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por favor responde la encuesta.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si quieres recomendar una compañía que utiliza Datos Abiertos:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Por favor envía un correo a &lt;a href="mailto:DA100MX@datos.gob.mx"&gt;DA100MX@datos.gob.mx&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Si tienes información general que quieras compartir sobre los Datos Abiertos
+   en México:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Únete a la conversación, twittea tus comentarios en #OD100MX, o envíanos
+  un correo a &lt;a href="mailto:DA100MX@datos.gob.mx"&gt;DA100MX@datos.gob.mx&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="od100 mx"></category></entry></feed>

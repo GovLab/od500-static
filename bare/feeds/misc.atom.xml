@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/misc.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2015-06-11T00:00:00-04:00</updated><entry><title>The OD500 Global Network</title><link href="http://localhost:8000/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:</id><summary type="html">&lt;p&gt;The OD500 Global Network is an international network of organizations that seek
+to study the use and impact of open data. Coordinated by the &lt;a href="http://thegovlab.org/"&gt;Governance Lab
+(GovLab)&lt;/a&gt; the OD500 Global Network enables participating
+organizations to analyze open data in their country in a manner that is both
+globally comparative and domestically specific. The OD500 Global Network starts
+from the assumption that only by mapping the use of open data within and across
+countries, can new approaches for understanding the economic and social impact
+of open government data be generated.&lt;/p&gt;</summary></entry></feed>

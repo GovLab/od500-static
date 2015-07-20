@@ -1,0 +1,208 @@
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+	padding: 5px 10px;
+	@include rounded;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	padding: 5px 10px;
+	background-color: $white_alpha;
+	@include rounded;
+	border: 1px solid #ccc;	
+}
+
+select {
+	border: 1px solid #ccc;
+	// -webkit-appearance: none;
+	// -moz-appearance: none;
+	padding: 5px 10px;
+}
+
+// Button Module
+
+.m-button {
+	padding: 5px 14px 4px 14px;
+	border: 1px solid $light_purple;	
+	@include rounded;
+	color: $white;
+	font-family: $fancy_type;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: .6px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: $purple;
+}
+
+.m-button:hover {
+	background-color: $purple;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+
+.m-form {
+	.m-button {
+		border: 1px solid #fff;	
+		@include rounded;
+		color: #fff;
+	}
+
+	.m-button:hover {
+		background-color: $purple;
+		border: 1px solid #fff;
+		color: #fff;
+	}
+}
+
+
+// Form Module
+
+.m-form-group {
+	padding: 20px 0;
+	border: 0;
+}
+
+.m-form h2 {
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.m-form h3 {
+	border-bottom: 1px solid $light_purple;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+
+	em {
+		font-weight: 300;
+		display: inline-block;
+		margin-top: 4px;
+	}
+}
+
+.m-form-half {
+	@extend .m-form-group;
+	// display: inline-block;
+	// width: 456px / 960px * 100%;
+	// vertical-align: top;
+	// margin-right: 40px;
+}
+// .m-form-half.right {
+// 	margin-right: 0;
+// }
+
+
+.m-form-full {
+	@extend .m-form-group;
+}
+	
+.m-form-line {
+	margin-bottom: 5px;
+	// text-align: right;
+}
+
+.m-form-line label {
+	width: 46%;
+	display: inline-block;
+	text-align: left;
+}
+.m-form-half input[type='text'] {
+	width: 51%;
+}
+
+.m-form-half select {
+	width: 52.8%;
+	font-family: sans-serif;
+	font-size: 1em;
+	color: $black;
+}
+
+.m-form-half textarea {
+	width: 100%;
+	height: 150px;
+	min-width: 95%;
+	max-width: 95%;
+}
+
+.m-form-box {
+	padding: 5px 10px;
+	margin: 10px 0;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.m-form-footer {
+	background-color: transparent;
+	border-top: 1px solid $light_gray;
+	padding: 5px;
+	margin: 5px 5px 20px;
+	overflow:hidden;
+}
+
+.m-form-footer input[type="submit"] {
+	float: right;
+}
+
+
+// Special Cases
+
+// Contacted Box
+
+.contacted-box {
+	padding-left: 30px;
+	position: relative;
+	background-color: #fafafa;
+}
+#contacted {
+	position: absolute;
+	left: 5px;
+}
+// Type of Company
+
+.type-of-company-box {
+	line-height: 23px;
+}
+
+#otherCompanyType {
+	width: 37%;
+	margin-left: 5px;
+}
+
+//  Error Messages
+
+.parsley-error-list {
+	list-style: none;
+	background-color: $light_red;
+	padding: 5px 10px;
+	@include rounded;
+	border: 1px solid $red;
+	color: $red;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	@include drop_shadow;
+}
+
+
+.parsley-error-list:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid $red;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	top: -8px;
+	left: 30px;
+}
+
+.saveCompanyForm-new {
+	.m-button {
+		float: right;
+		margin-bottom: 30px;
+	}
+}

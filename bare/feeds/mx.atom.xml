@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/mx.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2015-06-11T00:00:00-04:00</updated><entry><title>Open Data 100 Mexico Companies</title><link href="http://localhost:8000//en/mx/list/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:en/mx/list/</id><summary type="html"></summary><category term="companies"></category></entry><entry><title>Open Data 100 Mexico</title><link href="http://localhost:8000//en/mx/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:en/mx/</id><summary type="html">&lt;iframe width="960" height="540" src="https://www.youtube.com/embed/ljuclmBfAQQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;(open data compass iframe)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;About This Project&lt;/h1&gt;
+&lt;p&gt;As part of its &lt;a href="http://datos.gob.mx/"&gt;Open Data policy&lt;/a&gt;, the Federal
+Government of Mexico is working in partnership with The GovLab at New York
+University to conduct the Open Data 100 Mexico. This is the first study of
+Mexican companies and NGO's that use open government data to generate new
+business, develop new products and services, and create social value.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;How To Participate&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If you represent an Open Data company or NGO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please fill out our survey.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you would like to recommend an Open Data company&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please email us at &lt;a href="mailto:DA100MX@datos.gob.mx"&gt;DA100MX@datos.gob.mx&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you have general information to share about open data in Mexico&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Join the Conversation, tweet your comments to #OD100MX, or email us at
+   &lt;a href="mailto:DA100MX@datos.gob.mx"&gt;DA100MX@datos.gob.mx&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="od100 mx"></category></entry></feed>

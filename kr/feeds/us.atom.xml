@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/kr/" rel="alternate"></link><link href="http://localhost:8000/feeds/us.atom.xml" rel="self"></link><id>http://localhost:8000/kr/</id><updated>2015-06-15T00:00:00-04:00</updated><entry><title>Open Data Roundtables</title><link href="http://localhost:8000/kr//en/us/about-roundtables/" rel="alternate"></link><updated>2015-06-15T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-15:kr//en/us/about-roundtables/</id><summary type="html">&lt;div class="rt-logo"&gt;
+  &lt;img src="/theme/img/roundtables/roundtables-logo.png"&gt;
+  &lt;h2 class="rt-slogan"&gt;Making open government data more relevant, accessible, and actionable&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;p class="drop-cap"&gt;The GovLab is hosting a series of Roundtables that will
+bring together federal agencies with the businesses and other organizations
+that use their data, drawing on the work of the Open Data 500. [The U.S. Open
+Data Action Plan, released by the White House on May 9, 2014][1], describes
+these Roundtables as a key part of meeting the commitment to “support
+innovators and improve open data based on feedback.” The Plan notes that
+“Specific, actionable feedback from these sessions [the Roundtables] and others
+has the potential to improve descriptions, formats, and accessibility of
+government data.”&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Objectives&lt;/h2&gt;
+&lt;p&gt;&lt;img src="/theme/img/roundtables/roundatables-series-dots-2.jpg" class="in-content-image"&gt;&lt;/p&gt;
+&lt;p&gt;The Open Data Roundtables bring together data providers in government and data users in business and the nonprofit sector to identify the kinds of datasets that have the greatest value, and to determine what is needed to make them as useful as possible. The Roundtables are designed to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prioritize&lt;/strong&gt; the most important datasets in each agency for business and
+    public use.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improve&lt;/strong&gt; each agency’s data and make it easier to find, access, and work
+    with.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connect&lt;/strong&gt; businesses and organizations with government agency staff who
+    manage the data they use, and set up a process for ongoing feedback.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The GovLab will publish summaries of the Roundtables and their results for
+a public audience.&lt;/p&gt;
+&lt;p&gt;The Open Data Roundtable Series is designed to establish a new way of planning,
+preparing, and implementing the release of open data at the federal level. The
+shift to demand-driven open data will help agencies prioritize their work on
+open data much more effectively, meet the needs of users more efficiently, and
+potentially release billions of dollars in economic value through new, targeted
+data release.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Specific, actionable feedback from these sessions [the Roundtables] and
+others has the potential to improve descriptions, formats, and accessibility
+of government data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Upcoming Roundtables&lt;/h2&gt;
+&lt;p&gt;The GovLab is now working with ten other federal agencies to design similar
+Roundtables. We are also planning follow-up events with various government
+agencies and businesses. Interested parties should please contact us at
+opendata500@thegovlab.org.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Series Sponsors&lt;/h2&gt;
+&lt;div class="roundtables-series-sponsors"&gt;
+    &lt;div id="sponsor-aws" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-aws.png"&gt;&lt;/div&gt;
+    &lt;div id="sponsor-pwc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-pwc.png"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Open Data Roundtables Series is supported by Amazon Web Services and
+PricewaterhouseCoopers. The GovLab is currently seeking additional sponsors for
+the Open Data Roundtable Series and for individual Roundtable events. For more
+information, please contact us at &lt;a href="mailto:opendata500@thegovlab.org"&gt;opendata500@thegovlab.org&lt;/a&gt;.&lt;/p&gt;</summary><category term="roundtables"></category></entry><entry><title>Open Data Resources</title><link href="http://localhost:8000/kr//en/us/resources/" rel="alternate"></link><updated>2015-06-15T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-15:kr//en/us/resources/</id><summary type="html">&lt;h1&gt;Press, Media and Blogs&lt;/h1&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;h1&gt;GovLab Digest&lt;/h1&gt;
+&lt;p&gt;The Governance Lab (The GovLab) at New York University strives to improve
+people’s lives by changing how we govern. Founded in 2012, with funding from
+the MacArthur and Knight Foundations, the GovLab designs technology, policy and
+strategies for fostering more open and collaborative approaches to governance,
+and tests what works.&lt;/p&gt;
+&lt;h1&gt;GovLab Academy&lt;/h1&gt;
+&lt;p&gt;The GovLab Academy is an online training community that uses technology and
+innovation to tackle public problems. A partnership between The GovLab and MIT
+Media Lab’s Online Learning Initiative, the site offers videos, podcasts,
+readings and activities designed to enable the purpose-driven learner to deepen
+his or her practical knowledge.&lt;/p&gt;</summary><category term="resources"></category></entry><entry><title>USDA Roundtable</title><link href="http://localhost:8000/kr//en/us/us-department-of-agriculture/" rel="alternate"></link><updated>2015-06-15T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-15:kr//en/us/us-department-of-agriculture/</id><summary type="html">&lt;script src="/theme/js/roundtable.js"&gt;&lt;/script&gt;
+
+&lt;div class="host-agency-logo"&gt;
+  &lt;img src="/theme/img/roundtables/usda-logo.png"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;August 1, 2014&lt;/h3&gt;
+&lt;p&gt;&lt;span class="event-picture-gallery"&gt;Photos by Audrey Ariss&lt;/span&gt;&lt;/p&gt;
+&lt;div class="event-pictures-viewer"&gt;
+  &lt;div class="event-pictures-strip"&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-01.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Dr. Ann Bartuska&lt;/div&gt;
+        &lt;em&gt;Deputy Under Secretary, USDA Research, Economics and Education&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-02.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Cheryl Cook&lt;/div&gt;
+        &lt;em&gt;Chief Information Officer, USDA&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-03.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Erie Meyer&lt;/div&gt;
+        &lt;em&gt;Senior Advisor to the CTO, White House OSTP&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-04.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;em&gt;Tyler Dahlberg, Geospatial Solution Specialist at Azavea shares discussion highlights from breakout session 1&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-05.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;em&gt;Report back from breakout session 2: Data-Driven Solutions for Food Resilience&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-02-06.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Dr. Catherine Woteki&lt;/div&gt;
+        &lt;em&gt;Chief Scientist, USDA&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class="drop-cap"&gt;On August 1, USDA and The GovLab co-hosted an Open Data
+Roundtable on food resilience in Washington, DC. The event, held in conjunction
+with the White House Climate Data Initiative, convened government officials,
+companies, and nonprofits to improve the use of climate and agricultural data
+to ensure a reliable food supply. The Roundtable Series is designed to promote
+dialogue between government agencies that supply data and the companies and
+organizations that use it. The ultimate goal is to make open government data
+more relevant, accessible, and actionable.&lt;/p&gt;
+
+&lt;p&gt;Deputy CIO Joyce Hunter led the Department's planning and engagement with the
+event, and participated for the entire day. Over 30 other USDA officials and
+staff from other federal agencies participated as well, including NOAA,
+Department of Treasury and U.S. Geological Survey. The attendees heard
+presentations from Dr. Catherine Woteki, Under Secretary for the USDA’s
+Research, Education, and Economics (REE) mission area and the Department’s
+Chief Scientist; Dr. Ann Bartuska, Deputy Under Secretary for REE; Cheryl Cook,
+Chief Information Officer of the USDA; and Erie Meyer, Senior Advisor to the
+U.S. Chief Technology Officer in the White House Office of Science and
+Technology Policy.&lt;/p&gt;
+&lt;p&gt;Read blog posts about the event from &lt;a href="https://www.data.gov/food/participants-open-data-roundtables-guide-usda-ways-provide-high-quality-data-users/"&gt;Joyce Hunter&lt;/a&gt;, Deputy CIO and &lt;a href="http://thegovlab.org/the-usda-open-data-roundtable-climate-change-and-food-resilience/"&gt;Joel Gurin&lt;/a&gt;, The GovLab Senior Advisor.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Agenda&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://opendata500.thegovlab.org/files/USDA_Roundtable_Agenda.pdf"&gt;Agenda in PDF&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Report&lt;/h2&gt;
+&lt;p&gt;Read the full report &lt;a href="http://opendata500.thegovlab.org/files/USDA+Roundtable+Report.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Attendees&lt;/h2&gt;
+&lt;ul class="roundtable-attendees"&gt;
+  &lt;li&gt;&lt;span&gt;Steven Adler&lt;/span&gt; Information Strategist IBM &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Sinam Al-Khafaji&lt;/span&gt; Account Manager - USDA Esri&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Audrey Ariss&lt;/span&gt; Research Assistant of the Open Data 500 The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dr. Ann Bartuska&lt;/span&gt; Deputy Under Secretary USDA Research, Education and Economics &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dr. Michael Bowers&lt;/span&gt; National Program Leader, Director of the Agriculture and Food Research Initiative (AFRI) USDA National Institute of Food and Agriculture &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Stanley Campbell&lt;/span&gt; Chief Executive Officer EagleForce Associates&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Deb Casurella&lt;/span&gt; General Manager Independent Data Management LLC&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;James Chan&lt;/span&gt; Intern Sunlight Foundation&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Tina Chang&lt;/span&gt; Acting CIO/Director of Applications, OIT/NIFA USDA National Institute of Food and Agriculture &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Cheryl Cook&lt;/span&gt; Chief Information Officer USDA&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Tyler Dahlberg&lt;/span&gt; Geospatial Solution Specialist Azavea &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Lori Davis&lt;/span&gt; Vice President Mackson Consulting&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Damon Davis&lt;/span&gt; Director of the Health Data Initiative Health and Human Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dr. Kerry Dearfield&lt;/span&gt; Chief Scientist USDA Food Safety and Inspection Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Katherine Garcia&lt;/span&gt; Research Assistant of the Open Data 500 The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Paul Gibson&lt;/span&gt; CIO USDA Agricultural Research Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Marisa Gil Lapetra&lt;/span&gt; Health Market Intelligence Portfolio Manager and Analyst Knoema&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Lewrene Glaser&lt;/span&gt; Deputy Director for Data Management USDA Economic Research Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ariel Gold &lt;/span&gt;Program Manager, World Wide Public Sector Amazon Web Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Marcus Graham&lt;/span&gt; Project Manager, Intelligent Data Pilot U.S. Department of Treasury&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Karl Gudmunds&lt;/span&gt; ERS Branch Chief USDA Economic Research Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joseph Gulisano&lt;/span&gt; Risk Assurance Innovation Technology PricewaterhouseCoopers&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joel Gurin&lt;/span&gt; Project Director of the Open Data 500 The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Katina Hanson&lt;/span&gt; Acting Budget Officer USDA Risk Management Agency&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joyce Hunter&lt;/span&gt; Deputy CIO USDA Office of the CIO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Rich Iovanna&lt;/span&gt; Agricultural Economist USDA Farm Service Agency&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dr. Daney Jackson&lt;/span&gt; Ministerial Agricultural Extension Advisor USDA Foreign Agriculture Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Thomas Jacob&lt;/span&gt; Analyst USDA National Agricultural Statistics Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Bobby Jones&lt;/span&gt; Senior Advisor, Deputy CIO USDA Office of the CIO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Payal Kamdar&lt;/span&gt; President &amp;amp; CEO VSolvit &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ines Kapphan&lt;/span&gt; Product Manager, Weather Data Systems The Climate Corporation &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joe Koss&lt;/span&gt; Branch Chief, Applications Development USDA Food and Nutrition Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Patrice Kunesh&lt;/span&gt; Deputy Under Secretary USDA Rural Development&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Barbara Leach&lt;/span&gt; Director of Risk Mitigation USDA Office of the CIO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Marilla Li&lt;/span&gt; Research Assistant of the Open Data 500 The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Stephen Lowe&lt;/span&gt; Geospatial Information Officer USDA Office of the CIO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Laura Manley&lt;/span&gt; Project Manager of the Open Data 500 The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Charles Martin-Shields&lt;/span&gt; Consultant Ushahidi&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Tawny Mata&lt;/span&gt; AAA Fellow &amp;amp; Advisor for Climate Change USDA Office of the Chief Scientist&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Linda McCaw&lt;/span&gt; Program Manager Social Security Administration &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ken Melero&lt;/span&gt; Director of Federal Socrata&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Erie Meyer&lt;/span&gt; Senior Advisor to the CTO White House Office of Science and Technology Policy &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David Michaud&lt;/span&gt; Deputy CIO National Oceanic and Atmospheric Administration &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Eva Mitter&lt;/span&gt;USDA Natural Resources Conservation Service&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David Nulph&lt;/span&gt; GIS Analyst USDA Economic Research Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ted Payne&lt;/span&gt; GIS Office Chief USDA Farm Service Agency &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ravoyne Payton&lt;/span&gt; Acting Departmental FOIA Officer USDA Office of the CIO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jessica Powers&lt;/span&gt; Director, National Hunger Clearinghouse WhyHunger&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joe Pringle&lt;/span&gt; Director of Health Socrata&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Stu Rabinowitz&lt;/span&gt; Director Federal Markets and Channel Partners Socrata&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Morgan Robinson&lt;/span&gt; Data Analyst The Reinvestment Fund&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David Sandler&lt;/span&gt; Senior Emergency Response Specialist USDA Food Safety and Inspection Service &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ron Sequeira&lt;/span&gt; Associate Director at USDA APHIS PPQ CPHST USDA Animal and Plant Health Inspection Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Omar Silver&lt;/span&gt; Program Director Dovel Technologies&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jonathan Smith&lt;/span&gt; Program Coordinator Land Change Science U.S. Geological Survey&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dave Standish&lt;/span&gt; Federal Civilian Account Manager Google&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Sheila Steffenson&lt;/span&gt; Director of Operations vSolvIT &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jed Sundwall&lt;/span&gt; Open Data Business Development Manager Amazon Web Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Michael Valivullah&lt;/span&gt; CTO USDA National Agricultural Statistics Services &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jesse Vollmar&lt;/span&gt; Co-Founder &amp;amp; CEO FarmLogs &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Adam Welsh&lt;/span&gt; SVP Health IT Dovel Technologies&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Curtis Wiley&lt;/span&gt; Acting Deputy Assistant Secretary USDA Office of the Secretary&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Dr. Catherine Woteki&lt;/span&gt; Chief Scientist USDA&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class="invitation-disclaimer"&gt;&lt;em&gt;To invite attendees for this event, the
+GovLab contacted over 35 companies in the Open Data 500 study and several
+nonprofit organizations that we know to be using USDA data with a focus on food
+resilience. USDA chose its own representatives, high-level officials and staff
+who direct the Department's data programs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Series Sponsors&lt;/h2&gt;
+&lt;div class="roundtables-series-sponsors"&gt;
+  &lt;div id="sponsor-aws" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-aws.png"&gt;&lt;/div&gt; &lt;div id="sponsor-pwc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-pwc.png"&gt;&lt;/div&gt; &lt;/div&gt;
+
+&lt;p&gt;The Open Data Roundtables Series is supported by Amazon Web Services and
+PricewaterhouseCoopers. The GovLab is currently seeking additional sponsors for
+the Open Data Roundtable Series and for individual Roundtable events. For more
+information, please contact us at &lt;a href="mailto:opendata500@thegovlab.org"&gt;opendata500@thegovlab.org&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Event Supporter&lt;/h2&gt;
+&lt;div class="roundtables-event-sponsors"&gt;
+  &lt;div id="sponsor-dtc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/socrata-logo.png"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The GovLab also thanks Socrata, the Event Sponsor for this second Roundtable,
+for providing refreshments, lunch, and a reception after the event.&lt;/p&gt;</summary><category term="roundtables"></category></entry><entry><title>US Department of Commerce Roundtable</title><link href="http://localhost:8000/kr//en/us/us-department-of-commerce/" rel="alternate"></link><updated>2015-06-15T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-15:kr//en/us/us-department-of-commerce/</id><summary type="html">&lt;script src="/theme/js/roundtable.js"&gt;&lt;/script&gt;
+
+&lt;div class="host-agency-logo"&gt;
+  &lt;img src="/theme/img/roundtables/doc-logo.png"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;June 18, 2014&lt;/h3&gt;
+&lt;p&gt;&lt;span class="event-picture-gallery"&gt;
+&lt;a href="https://www.flickr.com/photos/thegovlab/sets/72157645294263883/" target="_blank"&gt;See the full gallery at Flickr&lt;/a&gt;
+| Photos by Kristine Brown
+&lt;/span&gt;&lt;/p&gt;
+&lt;div class="event-pictures-viewer"&gt;
+  &lt;div class="event-pictures-strip"&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-01.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Stefaan Verhulst&lt;/div&gt;
+        &lt;em&gt;Chief Research and Development Officer, the GovLab&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-06.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Penny Pritzker&lt;/div&gt;
+        &lt;em&gt;Secretary of Commerce&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-02.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Mark Doms&lt;/div&gt;
+        &lt;em&gt;Under Secretary of Commerce for Economic Affairs&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-03.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;em&gt;Joel Gurin, Senior Advisor at the GovLab, with Acting Deputy Secretary of Commerce Bruce Andrews&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-04.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;David Michaud&lt;/div&gt;
+        &lt;em&gt;Acting Deputy CIO, NOAA&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-05.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Nick Sinai&lt;/div&gt;
+        &lt;em&gt;U.S. Deputy Chief Technology Officer&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+    &lt;figure class="event-picture-container"&gt;
+      &lt;img src="/theme/img/roundtables/roundtable-01-07.jpg"&gt;
+      &lt;figcaption&gt;
+        &lt;div&gt;Erie Meyer&lt;/div&gt;
+        &lt;em&gt;Senior Advisor to the U.S. CTO, leads a breakout session&lt;/em&gt;
+      &lt;/figcaption&gt;
+    &lt;/figure&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p class="drop-cap"&gt;The first Open Data Roundtable was held in Washington, DC
+on June 18, 2014. It was co-hosted by the GovLab and the White House Office of
+Science and Technology Policy (OSTP) together with the U.S. Department of
+Commerce. Under Secretary of Commerce for Economic Affairs Mark Doms led the
+Department's planning and engagement with the event, and participated for the
+entire day. Over 20 other officials and staff from the Department of Commerce
+participated as well, with appearances by Secretary Penny Pritzker and Acting
+Deputy Secretary Bruce Andrews. Nick Sinai, U.S. Deputy Chief Technology
+Officer, and Erie Meyer, Senior Advisor to the U.S. CTO, represented OSTP at
+the event. The GovLab is now compiling a report on the Roundtable for public
+release.&lt;/p&gt;
+
+&lt;p&gt;Read blog posts about the event from &lt;a href="http://www.commerce.gov/blog/2014/06/19/listening-our-data-customers-open-data-roundtable"&gt;Bruce Andrews, Acting Deputy
+Secretary&lt;/a&gt;, &lt;a href="http://www.esa.doc.gov/Blog/2014/06/19/big-day-big-data-beginning-our-data-transformation"&gt;Mark Doms, Under Secretary for Economic Affairs&lt;/a&gt;, and &lt;a href="http://thegovlab.org/the-govlab-roundtables-open-dialogues-on-open-data/"&gt;Joel
+Gurin, The GovLab Senior Advisor&lt;/a&gt;. The agenda for the event can be found
+&lt;a href="http://opendata500.thegovlab.org/files/DOC_Roundtable_Agenda.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Commerce Roundtable Report&lt;/h2&gt;
+&lt;p&gt;The GovLab has released "Realizing The Potential of Open Government Data:
+A Roundtable with the U.S. Department of Commerce." The report summarizes the
+Open Data Roundtable and is designed to help data producers and users with an
+overview of data issues and potential solutions. The full report can be found
+&lt;a href="http://opendata500.thegovlab.org/files/report-dep-of-commerce.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Attendees&lt;/h2&gt;
+&lt;ul class="roundtable-attendees"&gt;
+  &lt;li&gt;&lt;span&gt;Steven Adler&lt;/span&gt; Information Strategist, IBM&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Vikrum Aiyer&lt;/span&gt; Special Advisor To The Under Secretary, Department of Commerce USPTO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Audrey Ariss&lt;/span&gt; Research Assistant of the Open Data 500, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ty Beltramo&lt;/span&gt; CTO, MapQuest&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Avi Bender&lt;/span&gt; Chief Technology Officer, Department of Commerce Census Bureau&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Andrew Beveridge&lt;/span&gt; Co-Founder and CEO, Social Explorer &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ron Bewtra&lt;/span&gt; Chief Technology Officer, Department of Commerce NOAA&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Kristy Brown&lt;/span&gt; Research Assistant and Photographer, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Robyn Caplan&lt;/span&gt; Reseach Fellow, The GovLab  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Sarah Cordivano&lt;/span&gt; Project Manager for the Data Analytics team, Azavea  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ashley De Smeth&lt;/span&gt; Director of Development and Government Affairs, Appallicious &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Frank Digiammarino&lt;/span&gt;   Director, Global Public Sector, Amazon Web Services&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Roslyn Docktor&lt;/span&gt; Governmental Programs Executive, IBM&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Mark Doms&lt;/span&gt; Under Secretary, Department of Commerce Economics and Statistics Administration&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jim Dreyer&lt;/span&gt; Leadership Director, Risk Assurance IT &amp;amp; Process Assurance XBRL services, PricewaterhouseCoopers&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Austin Durrer&lt;/span&gt; Chief Of Staff, Department of Commerce Economics and Statistics Administration&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Katherine Garcia&lt;/span&gt; Research Assistant of the Open Data 500, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Robert Glass&lt;/span&gt; Federal Solution Architect, Apigee  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ariel Gold&lt;/span&gt; Program Manager, World Wide Public Sector Amazon Web Services&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Aaron Greenspan&lt;/span&gt; President and CEO, Think Computer Corporation    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Joel Gurin&lt;/span&gt; Project Director of the Open Data 500, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Alex Heit&lt;/span&gt; Policy Associate, Data Transparency Coalition  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Hudson Hollister&lt;/span&gt; Founder and Executive Director, Data Transparency Coalition &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;John Horrigan&lt;/span&gt; Consultant, Pew Research Centre    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Bernadette Hyland&lt;/span&gt; CEO, 3 Round Stones    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;George Ivanov&lt;/span&gt; Public Policy and Government Relations Analyst, Google Maps    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Edward Johnson&lt;/span&gt; Director, Office Of Strategic Planning And Policy (NWS), Department of Commerce NOAA&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Bryson Koehler&lt;/span&gt; EVP, CIO, The Weather Company &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Mike Kruger&lt;/span&gt; Director Of Digital Engagement, Department of Commerce Office of the Secretary&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Ajay Kundaria&lt;/span&gt; Senior Advisor, Department of Commerce USPTO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David Langdon&lt;/span&gt; Senior Policy Advisor For Economics And Statistics, Department of Commerce Office of the Secretary&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Rick Lattimer&lt;/span&gt; Policy Analyst, Department of Commerce Economics and Statistics Administration&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Lauren Lipovic&lt;/span&gt; Senior Advisor, Department of Commerce Economics and Statistics Administration&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Laura Manley&lt;/span&gt; Project Manager of the Open Data 500, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Alan Marco&lt;/span&gt; Acting Chief Economist, Department of Commerce USPTO&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Stephen Marley&lt;/span&gt; Chief Technologist, Harris Corporation    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Nicole Mayerhauser&lt;/span&gt; Chief of the National Income And Wealth Division, Department of Commerce Bureau of Economic Analysis&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David McClure&lt;/span&gt; Office Of The Chief Information Officer, Department of Commerce NOAA&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Laura McNulty&lt;/span&gt; Manager, National Government Health &amp;amp; Sciences Team, Esri  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Kenneth Melero&lt;/span&gt; Director of Federal, Socrata  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Erie Meyer&lt;/span&gt; Senior Advisor to the CTO, White House Office of Science &amp;amp; Technology Policy&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;David Michaud&lt;/span&gt; Acting Deputy Chief Information Officer, Department of Commerce NOAA&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Alexander Minor&lt;/span&gt; Chief, Web Services Branch, Department of Commerce Bureau of Economic Analysis&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Brian Moyer&lt;/span&gt; Acting Director, Department of Commerce Bureau of Economic Analysis&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jeptha Nafziger&lt;/span&gt; Detalee, OMB, Senate Budget Committee    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Elizabeth Nash&lt;/span&gt; Director of Data and Product Development, PolicyMap   &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Hamid Ouyachi&lt;/span&gt; CTO, Department of Labor&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Luis Palacios&lt;/span&gt; Research Fellow, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Harshil Parikh&lt;/span&gt;    Founder, TuvaLabs  &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Emma Peck&lt;/span&gt; Legislative Correspondent, Senator Mark R. Warner's office &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Nancy Potok&lt;/span&gt; Deputy Director, Department of Commerce Census Bureau&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Penny Pritzker&lt;/span&gt; Secretary, Department of Commerce Office of the Secretary&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Michael Ratcliffe&lt;/span&gt; Assistant Division Chief For Geocartographic Products And Criteria, Department of Commerce Census Bureau&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Arnaud Sahuguet&lt;/span&gt; Chief Technology Officer, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;John Henry Scott&lt;/span&gt; Physicist, Department of Commerce National Institute of Standards and Technology&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Jeffrey Sisson&lt;/span&gt; Program Manager, Data Access And Dissemination Systems, Department of Commerce Census Bureau&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Michael Alan Steinberg&lt;/span&gt; Senior Vice President for Special Initiatives, AccuWeather    &lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Haley Van Dyck&lt;/span&gt; Advisor, Office of Management and Budget&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Bala Venkatesan&lt;/span&gt; Vice President, Technology, Overture Technologies&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Stefaan Verhulst&lt;/span&gt; Chief Research and Development Officer of the Governance Laboratory, The GovLab&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Shaunda Villones&lt;/span&gt; Senior Economist And Special Assistant To The Director, Department of Commerce Bureau of Economic Analysis&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Sean Vitka&lt;/span&gt; Federal Policy Manager, Sunlight Foundation&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Michael White&lt;/span&gt; Senior Risk Analyst, OnDeck&lt;/li&gt;
+  &lt;li&gt;&lt;span&gt;Arleen Zank&lt;/span&gt; Founder and Editor in Chief, Way Better Patents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class="invitation-disclaimer"&gt;&lt;em&gt;To invite attendees for
+this event, the GovLab sent an email to over 120 companies in the Open Data 500
+study that we know to be using Department of Commerce data, and several
+nonprofit organizations that either use Commerce data directly or study the way
+it is used. The Department of Commerce chose its own representatives,
+high-level officials and staff who direct the Department's data
+programs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Series Sponsors&lt;/h2&gt;
+&lt;div class="roundtables-series-sponsors"&gt;
+  &lt;div id="sponsor-aws" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-aws.png"&gt;&lt;/div&gt; &lt;div id="sponsor-pwc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-pwc.png"&gt;&lt;/div&gt; &lt;/div&gt;
+
+&lt;p&gt;The Open Data Roundtables Series is supported by Amazon Web Services and
+PricewaterhouseCoopers. The GovLab is currently seeking additional sponsors for
+the Open Data Roundtable Series and for individual Roundtable events. For more
+information, please contact us at &lt;a href="mailto:opendata500@thegovlab.org"&gt;opendata500@thegovlab.org&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Event Supporter&lt;/h2&gt;
+&lt;div class="roundtables-event-sponsors"&gt;
+  &lt;div id="sponsor-dtc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-dtc.png"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The GovLab also thanks the Data Transparency Coalition, the Event Sponsor for
+this first Roundtable, for providing refreshments, lunch, and a reception after
+the event.&lt;/p&gt;</summary><category term="roundtables"></category></entry><entry><title>USPTO Roundtable</title><link href="http://localhost:8000/kr//en/us/uspto-roundtable/" rel="alternate"></link><updated>2015-06-15T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-15:kr//en/us/uspto-roundtable/</id><summary type="html">&lt;script src="/theme/js/roundtable.js"&gt;&lt;/script&gt;
+
+&lt;div class="host-agency-logo"&gt;
+  &lt;img src="/theme/img/roundtables/uspto-logo.png"&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;December 8, 2014&lt;/h3&gt;
+&lt;p class="drop-cap"&gt;On December 8, 2014, The GovLab and the U.S. Patent and
+Trademark Office (USPTO) co-hosted an Open Data Roundtable in Washington, DC.
+The impetus for this event was the first Open Data Roundtable, held with the
+U.S.  Department of Commerce where USPTO identified a need to further engage
+its data users in devising its open data roadmap for the next few years. At the
+USPTO Roundtable, Alan Marco, USPTO’s Chief Economist, and Lynn Overmann,
+Deputy Chief Data Officer of the Department of Commerce (DOC), both emphasized
+the agency’s desire to more actively engage data users and technologists by
+involving the developer community and creating ongoing feedback loops and
+collaborations. This Roundtable was primarily focused on USPTO’s patent data,
+which is much more challenging than trademark data: while owners wish to
+promote their trademarks, and thereby provide good data to USPTO, there are
+many more data collection, format, and quality issues associated with patent
+data.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h2&gt;Report&lt;/h2&gt;
+&lt;p&gt;Read the full report &lt;a href="/files/USPTO_Roundtable_Report.pdf"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Series Sponsors&lt;/h2&gt;
+&lt;div class="roundtables-series-sponsors"&gt;
+  &lt;div id="sponsor-aws" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-aws.png"&gt;&lt;/div&gt; &lt;div id="sponsor-pwc" class="sponsor-container"&gt;&lt;img src="/theme/img/roundtables/roundtables-sponsor-pwc.png"&gt;&lt;/div&gt; &lt;/div&gt;
+
+&lt;p&gt;The Open Data Roundtables Series is supported by Amazon Web Services and
+PricewaterhouseCoopers. The GovLab is currently seeking additional sponsors for
+the Open Data Roundtable Series and for individual Roundtable events. For more
+information, please contact us at &lt;a href="mailto:opendata500@thegovlab.org"&gt;opendata500@thegovlab.org&lt;/a&gt;.&lt;/p&gt;</summary><category term="roundtables"></category></entry><entry><title>About the Open Data 500 US</title><link href="http://localhost:8000/kr//en/us/about/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:kr//en/us/about/</id><summary type="html">&lt;p&gt;The Open Data 500 is the first comprehensive study of U.S. companies that use
+open government data to generate new business and develop new products and
+services. Open Data is free, public data that can be used to launch commercial
+and nonprofit ventures, do research, make data-driven decisions, and solve
+complex problems.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Study Goals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a basis for assessing the economic value of government open data&lt;/li&gt;
+&lt;li&gt;Encourage the development of new open data companies&lt;/li&gt;
+&lt;li&gt;Foster a dialogue between government and business on how government data can
+  be made more useful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;The Govlab’s Approach&lt;/h2&gt;
+&lt;p&gt;The Open Data 500 study is conducted by the GovLab at New York University with
+funding from the John S. and James L. Knight Foundation. The GovLab works to
+improve people’s lives by changing how we govern, using technology-enabled
+solutions and a collaborative, networked approach. As part of its mission, the
+GovLab studies how institutions can publish the data they collect as open data
+so that businesses, organizations, and citizens can analyze and use this
+information.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Company Identification&lt;/h2&gt;
+&lt;p&gt;The Open Data 500 team has compiled our list of companies through (1) outreach
+campaigns, (2) advice from experts and professional organizations, and (3)
+additional research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outreach Campaign&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mass email to over 3,000 contacts in the GovLab network&lt;/li&gt;
+&lt;li&gt;Mass email to over 2,000 contacts OpenDataNow.com&lt;/li&gt;
+&lt;li&gt;Blog posts on TheGovLab.org and OpenDataNow.com&lt;/li&gt;
+&lt;li&gt;Social media recommendations&lt;/li&gt;
+&lt;li&gt;Media coverage of the Open Data 500&lt;/li&gt;
+&lt;li&gt;Attending presentations and conferences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Expert Advice&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recommendations from government and non-governmental organizations&lt;/li&gt;
+&lt;li&gt;Guidance and feedback from Open Data 500 advisors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Research&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Companies identified for the book, Open Data Now&lt;/li&gt;
+&lt;li&gt;Companies using datasets from Data.gov&lt;/li&gt;
+&lt;li&gt;Directory of open data companies developed by Deloitte&lt;/li&gt;
+&lt;li&gt;Online Open Data Userbase created by Socrata&lt;/li&gt;
+&lt;li&gt;General research from publicly available sources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;What The Study Is Not&lt;/h2&gt;
+&lt;p&gt;The Open Data 500 is not a rating or ranking of companies. It covers companies
+of different sizes and categories, using various kinds of data.&lt;/p&gt;
+&lt;p&gt;The Open Data 500 is not a competition, but an attempt to give a broad,
+inclusive view of the field.&lt;/p&gt;
+&lt;p&gt;The Open Data 500 study also does not provide a random sample for definitive
+statistical analysis. Since this is the first thorough scan of companies in the
+field, it is not yet possible to determine the exact landscape of open data
+companies.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;The GovLab - Open Data 500 Team&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;h2&gt;Expert Advisors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jose Alonso, World Wide Web Foundation&lt;/li&gt;
+&lt;li&gt;Paul Baker, Webitects/Open Data Institute (Chicago)&lt;/li&gt;
+&lt;li&gt;Michael Chui, McKinsey Global Institute&lt;/li&gt;
+&lt;li&gt;Hania Farhan, World Wide Web Foundation&lt;/li&gt;
+&lt;li&gt;Juliana Freire, New York University&lt;/li&gt;
+&lt;li&gt;Daniel Goroff, Alfred P. Sloan Foundation&lt;/li&gt;
+&lt;li&gt;Jim Hendler, Rensselaer Polytechnic Institute&lt;/li&gt;
+&lt;li&gt;Hudson Hollister, Data Transparency Coalition&lt;/li&gt;
+&lt;li&gt;Harvey Lewis, Deloitte&lt;/li&gt;
+&lt;li&gt;Bill McGee, Author, Attention All Passengers&lt;/li&gt;
+&lt;li&gt;Theresa Pardo, Center for Technology in Government&lt;/li&gt;
+&lt;li&gt;Lee Rainie, Pew Research Center&lt;/li&gt;
+&lt;li&gt;Gavin Starks, Open Data Institute (London)&lt;/li&gt;
+&lt;li&gt;Danne Woo, Datavisual, Inc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The GovLab's inagural Open Data 500 team included: Joel Gurin, Laura Manley,
+Audrey Ariss, Katherine Garcia, Marilla Li, and Gustavo Magalhaes.&lt;/p&gt;</summary><category term="about"></category></entry><entry><title>Open Data 500 Companies</title><link href="http://localhost:8000/kr//en/us/list/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:kr//en/us/list/</id><summary type="html"></summary><category term="full list"></category></entry><entry><title>Open Data 500 U.S.</title><link href="http://localhost:8000/kr//en/us/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:kr//en/us/</id><summary type="html">&lt;h2&gt;Open Data Compass&lt;/h2&gt;
+&lt;h3&gt;What types of companies use which agencies' data?&lt;/h3&gt;
+&lt;div id="chord-chart" data-matrix-json="/data/us_matrix.json"&gt;
+&lt;span class="chord-legend companies"&gt;Company Categories&lt;/span&gt;
+&lt;span class="chord-legend agencies"&gt;Federal Agencies&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;script src="/theme/bower_components/d3/d3.min.js"&gt;&lt;/script&gt;
+
+&lt;script src="/theme/js/compass.js"&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+&lt;h1&gt;About This Project&lt;/h1&gt;
+&lt;h3&gt;The Open Data 500, funded by the &lt;a href="http://www.knightfoundation.org/"&gt;John S. and James L. Knight Foundation&lt;/a&gt; and conducted by &lt;a href="http://thegovlab.org/"&gt;the GovLab&lt;/a&gt;, is the first comprehensive study of U.S.  companies that use open government data to generate new business and develop new products and services.&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.opendata500.com/en/us/about/"&gt;Learn More&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;How To Participate&lt;/h1&gt;
+&lt;div class="text-center"&gt;
+&lt;div class="homepage-box-step"&gt;
+    &lt;h2&gt;1&lt;/h2&gt;
+    &lt;h3&gt;Take the Survey&lt;/h3&gt;
+    &lt;p&gt;Fill out the &lt;a href="survey"&gt;survey&lt;/a&gt; and tell us about your company's use of open data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="homepage-box-step"&gt;
+    &lt;h2&gt;2&lt;/h2&gt;
+    &lt;h3&gt;Edit a Profile&lt;/h3&gt;
+    &lt;p&gt;If you'd like to edit your company's profile, send us an &lt;a href="mailto:opendata500@thegovlab.org"&gt;email&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div class="homepage-box-step"&gt;
+    &lt;h2&gt;3&lt;/h2&gt;
+    &lt;h3&gt;Join the Conversation&lt;/h3&gt;
+    &lt;p&gt;Follow us on &lt;a href="http://www.twitter.com/opendata500"&gt;Twitter&lt;/a&gt; or send us an &lt;a href="mailto:opendata500@thegovlab.org"&gt;email&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!--
+1. Take the Survey
+
+    * Fill out the survey and tell us about your company's use of open data.
+
+2. Edit a Profile
+
+    * If you'd like to edit your company's profile, send us an
+      [email](mailto:opendata500@thegovlab.org)
+
+3. Join the Conversation
+
+    * Follow us on [Twitter](http://www.twitter.com/opendata500) or send us an
+      [email](mailto:opendata500@thegovlab.org).
+--&gt;</summary><category term="od500 us"></category></entry></feed>

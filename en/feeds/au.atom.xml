@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/en/" rel="alternate"></link><link href="http://localhost:8000/feeds/au.atom.xml" rel="self"></link><id>http://localhost:8000/en/</id><updated>2015-06-11T00:00:00-04:00</updated><entry><title>Open Data 500 Australia</title><link href="http://localhost:8000/en//en/au/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:en//en/au/</id><summary type="html">&lt;hr /&gt;
+&lt;h1&gt;About This Project&lt;/h1&gt;
+&lt;p&gt;Australia is working in partnership with The GovLab at New York University to
+conduct the Open Data 500 Australia. This is the first study of Australian
+companies and NGOs that use open government data to generate new business,
+develop new products and services, and create social value.&lt;/p&gt;
+&lt;p&gt;&lt;a href="about/"&gt;&lt;button&gt;Learn More&lt;/button&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;How To Participate&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;If you represent an Open Data company or NGO&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please fill out our survey.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you would like to recommend an Open Data company&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Please email us at &lt;a href="mailto:opendata@communications.gov.au"&gt;opendata@communications.gov.au&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you have general information to share about open data in Australia&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email us at &lt;a href="mailto:opendata@communications.gov.au"&gt;opendata@communications.gov.au&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="od500 au"></category></entry></feed>

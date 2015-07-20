@@ -1,0 +1,218 @@
+#roundtables {
+
+	.rt-logo {
+		width: 500px;
+		margin: 0 auto 40px;
+		text-align: center;
+		clear: both;
+
+		img {
+			margin-bottom: 40px;
+		}
+
+		.rt-slogan {
+			font-size: 30px;
+			font-weight: 100;
+			line-height: 38px;
+			font-style: italic;
+		}
+	}
+
+	.host-agency-logo {
+		text-align: center;
+		margin: 30px 0 0;
+		clear: both;
+		
+		img {
+			width: 120px;
+
+		}
+	}
+
+	section {
+		padding-bottom: 23px;
+		margin-bottom: 35px;
+		border-bottom: 1px solid $light_gray;
+	}
+
+	p, li {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.in-content-image {
+		float: right;
+		width: 50%;
+		margin-left: 30px;
+		@include drop_shadow;
+	}
+
+	.event-title {
+		h1 {
+			margin-bottom: 0;
+			font-size: 3.3em;
+		}
+
+		h2 {
+			font-weight: 100;
+			text-align: center;
+			margin-bottom: 50px;
+			font-style: italic;
+			color: $dark_gray;
+		}
+	}
+
+	blockquote {
+		font-size: 24px;
+		line-height: 30px;
+		font-family: $fancy-type;
+		font-weight: 100;
+		font-style: italic;
+		text-align: left;
+		color: $purple;
+		background-color: $super_light_gray;
+		padding: 20px 30px;
+		border-left: 3px solid $purple;
+		margin: 0;
+	}
+
+	.roundtables-series-sponsors,
+	.roundtables-event-sponsors {
+		text-align: center;
+
+		.sponsor-container {
+			width: 260px;
+			height: 180px;
+			padding: 10px 20px;
+			display: inline-block;	
+			overflow: hidden;
+			margin-right: 30px;
+		}
+
+		img {
+			max-width: 260px;
+			vertical-align: middle;
+			position: relative;
+		}
+
+		#sponsor-aws img {
+			top: 40px;
+		}
+
+		#sponsor-pwc img {
+			top: 0;
+			width: 180px;
+		}
+	}
+
+	.roundtable-attendees {
+		padding-left: 0;
+
+		li {
+			vertical-align: top;
+			display: inline-block;
+			width: 443px;
+			margin: 5px 30px 5px 0;
+			padding: 5px 10px;
+			font-size: 12px;
+			line-height: 16px;
+			font-style: italic;
+			color: $dark_gray;
+			border-top: 1px solid $lighter_gray;
+			background-color: $white_alpha_50;
+
+			span {
+				display: block;
+				font-size: 16px;
+				color: $black;
+				font-style: normal;
+				line-height: 20px;
+
+
+			}	
+		}
+
+		li:nth-child(2n) {
+			margin-right: 0;
+		}
+	}
+
+	.invitation-disclaimer {
+		font-family: $fancy-type;
+		font-weight: 100;
+		font-size: 18px;
+		line-height: 25px;
+	}
+}
+
+.drop-cap:first-letter {
+	line-height: 86px;
+	float: left;
+	margin: 5px 16px 0 0;
+	font-weight: 200;
+	padding: 5px;
+	font-size: 86px;
+	background-color: $purple;
+	font-family: $fancy-type;
+	color: $white;
+	width: 80px;
+	text-align: center;
+}
+
+.event-picture-gallery {
+	float: right;
+	margin: 5px 10px 5px 0;
+}
+
+.event-pictures-viewer {
+	width: 960px;
+	overflow: hidden;
+	height: 213px;
+	margin-bottom: 40px;
+	@include inner_shadow;
+}
+
+.event-pictures-strip {
+	// width: 2100px;
+	position: relative;
+	z-index: -1;
+}
+
+.event-picture-container {
+	width: 320px;
+	margin: 0;
+	float: left;
+	position: relative;
+
+	img {
+		width: 320px;
+
+	}
+
+	figcaption {
+		position: absolute;
+		min-height: 38px;
+		bottom: 4px;
+		left: 0;
+		background-color: $dark_gray_alpha;
+		padding: 5px 10px;
+		color: $white;
+		font-family: $fancy-type;
+		font-weight: 100;
+		width: 300px;
+
+
+		div {
+			font-size: 16px;
+			line-height: 22px;
+		}
+
+		em {
+			color: $white;
+		}
+	}
+}
+
+#roundtables-first-paragraph {
+	letter-spacing: -0.05px;
+}

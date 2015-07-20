@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+          <title>Open Data 500 - Open Data 500 U.S.</title>
+        <meta charset="utf-8" />
+        <link href="http://localhost:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Open Data 500 Full Atom Feed" />
+        <link href="http://localhost:8000/feeds/us.atom.xml" type="application/atom+xml" rel="alternate" title="Open Data 500 Categories Atom Feed" />
+
+
+
+    <meta name="tags" content="od500 us" />
+
+
+ <script src="http://localhost:8000/theme/bower_components/jquery/dist/jquery.min.js"></script> <script src="http://localhost:8000/theme/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/parsley.css" />
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/jquery-ui-1.10.4.custom.min.css" />
+        <link rel="stylesheet" href="http://localhost:8000/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://localhost:8000/theme/css/style.css" />
+        <link href='//fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type='text/css'>
+</head>
+
+<body id="index" class="home">
+  <header id="banner">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="http://localhost:8000">
+            <img src="http://localhost:8000/theme/img/od500-logo.png" alt="OpenData 500 Global Network">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-articles">                <li>
+                  <a href="/en/us/about/">about</a>
+                </li>
+                <li>
+                  <a href="/en/us/list/">full list</a>
+                </li>
+                <li>
+                  <a href="/en/us/">od500 us</a>
+                </li>
+                <li>
+                  <a href="/en/us/resources/">resources</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    roundtables
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li>
+                        <a href="/en/us/about-roundtables/">about</a>
+                      </li>
+                      <li>
+                        <a href="/en/us/us-department-of-agriculture/">Department of Agriculture</a>
+                      </li>
+                      <li>
+                        <a href="/en/us/us-department-of-commerce/">Department of Commerce</a>
+                      </li>
+                      <li>
+                        <a href="/en/us/uspto-roundtable/">Patent and Trademark Office</a>
+                      </li>
+                  </ul>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="b-poly-logo" href="http://engineering.nyu.edu/">
+              <div class="poly-logo"> </div>
+            </a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header><!-- /#banner -->
+  <div class="container">
+<section id="content" class="col-lg-10 col-lg-offset-1 body body-open-data-500-us body-od500 us">
+  <div class="entry-content">
+      <h1>Open Data 500 U.S.</h1>
+    <h2>Open Data Compass</h2>
+<h3>What types of companies use which agencies' data?</h3>
+<div id="chord-chart" data-matrix-json="/data/us_matrix.json">
+<span class="chord-legend companies">Company Categories</span>
+<span class="chord-legend agencies">Federal Agencies</span>
+</div>
+
+<script src="/theme/bower_components/d3/d3.min.js"></script>
+
+<script src="/theme/js/compass.js"></script>
+
+<hr />
+<h1>About This Project</h1>
+<h3>The Open Data 500, funded by the <a href="http://www.knightfoundation.org/">John S. and James L. Knight Foundation</a> and conducted by <a href="http://thegovlab.org/">the GovLab</a>, is the first comprehensive study of U.S.  companies that use open government data to generate new business and develop new products and services.</h3>
+<p><a href="http://www.opendata500.com/en/us/about/">Learn More</a></p>
+<hr />
+<h1>How To Participate</h1>
+<div class="text-center">
+<div class="homepage-box-step">
+    <h2>1</h2>
+    <h3>Take the Survey</h3>
+    <p>Fill out the <a href="survey">survey</a> and tell us about your company's use of open data.</p>
+</div>
+<div class="homepage-box-step">
+    <h2>2</h2>
+    <h3>Edit a Profile</h3>
+    <p>If you'd like to edit your company's profile, send us an <a href="mailto:opendata500@thegovlab.org">email</a>.
+</div>
+<div class="homepage-box-step">
+    <h2>3</h2>
+    <h3>Join the Conversation</h3>
+    <p>Follow us on <a href="http://www.twitter.com/opendata500">Twitter</a> or send us an <a href="mailto:opendata500@thegovlab.org">email</a>.</p>
+</div>
+</div>
+
+<!--
+1. Take the Survey
+
+    * Fill out the survey and tell us about your company's use of open data.
+
+2. Edit a Profile
+
+    * If you'd like to edit your company's profile, send us an
+      [email](mailto:opendata500@thegovlab.org)
+
+3. Join the Conversation
+
+    * Follow us on [Twitter](http://www.twitter.com/opendata500) or send us an
+      [email](mailto:opendata500@thegovlab.org).
+-->
+  </div><!-- /.entry-content -->
+</section>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="pull-left footer-logos">
+        <a href="http://thegovlab.org/">
+          <img id="govlab-logo" src="http://localhost:8000/theme/img/govlab-logo.png" alt="The GovLab">
+        </a>
+      </div>
+      <ul>
+        <li class="footer-menu-item"><a href="https://twitter.com/opendata500" target="_blank">Twitter</a></li>
+        <!--<li class="footer-menu-item"><a href="/us/about/" target="_blank">About</a></li>-->
+        <li class="footer-menu-item last"><a href="mailto:opendata500@thegovlab.org" target="_blank">Contact Us</a></li>
+      </ul>
+      <p class="creative-commons-license">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+        </a>
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">
+          The Open Data 500
+        </span> by
+        <a xmlns:cc="http://creativecommons.org/ns#" href="http://thegovlab.org/" property="cc:attributionName" rel="cc:attributionURL">
+          The GovLab
+        </a> is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          Creative Commons Attribution-ShareAlike 4.0 International License
+        </a>.<br />
+        Based on a work at
+        <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/govlab/od500-static" rel="dct:source">
+          https://github.com/govlab/od500-static
+        </a>.
+      </p>
+    </div>
+  </footer><!-- end footer -->
+</body>
+</html>

@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+          <title>Open Data 500 - Compañías participantes en Datos Abiertos 100 México</title>
+        <meta charset="utf-8" />
+        <link href="http://localhost:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Open Data 500 Full Atom Feed" />
+        <link href="http://localhost:8000/feeds/mx.atom.xml" type="application/atom+xml" rel="alternate" title="Open Data 500 Categories Atom Feed" />
+
+
+
+    <meta name="tags" content="compañías" />
+
+
+ <script src="http://localhost:8000/es/../en/theme/bower_components/jquery/dist/jquery.min.js"></script> <script src="http://localhost:8000/es/../en/theme/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="http://localhost:8000/es/../en/theme/css/parsley.css" />
+        <link rel="stylesheet" href="http://localhost:8000/es/../en/theme/css/jquery-ui-1.10.4.custom.min.css" />
+        <link rel="stylesheet" href="http://localhost:8000/es/../en/theme/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://localhost:8000/es/../en/theme/css/style.css" />
+        <link href='//fonts.googleapis.com/css?family=Exo:100,500,100italic,500italic' rel='stylesheet' type='text/css'>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type='text/css'>
+</head>
+
+<body id="index" class="home">
+  <header id="banner">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand logo" href="http://localhost:8000/es">
+            <img src="http://localhost:8000/es/../en/theme/img/od500-logo.png" alt="OpenData 500 Global Network">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-articles">                <li>
+                  <a href="/es/mx/list/">compañías</a>
+                </li>
+                <li>
+                  <a href="/es/mx/">od100 mx</a>
+                </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">es<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://localhost:8000//en/mx/list/">en</a></li>
+              </ul>
+            </li>
+            <li><a class="b-poly-logo" href="http://engineering.nyu.edu/">
+              <div class="poly-logo"> </div>
+            </a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header><!-- /#banner -->
+  <div class="container">
+<section id="content" class="col-lg-10 col-lg-offset-1 body body-list body-compañías">
+  <div class="entry-content">
+      <h1>Compañías participantes en Datos Abiertos 100 México</h1>
+    
+  </div><!-- /.entry-content -->
+</section>
+
+
+<div id="download-data" class="m-download-data">
+  <strong>Descargar Datos</strong>
+  <span>Todas las compañías:</span>
+  <a href="/us/download/us_companies.csv">CSV</a>
+  <span>Entidades y conjuntos de datos:</span>
+  <a href="/us/download/us_agencies.csv">CSV</a>
+</div>
+
+<div class="m-candidates">
+  <div class="m-filter-menu">
+    <h3>Secretaría</h3>
+    <div id="filters-agency" class="m-candidates-buttons button-group" data-toggle="buttons-checkbox" data-filter-group="category">
+      <button data-filter="*">Borrar filtro</button>
+            <button data-filter=".instituto-nacional-de-estadstica-y-geografa">INEGI</button>
+            <button data-filter=".secretara-de-hacienda-y-crdito-pblico">SHCP</button>
+            <button data-filter=".secretara-de-gobernacin">Secretaría de Gobernación</button>
+            <button data-filter=".secretara-de-economa">Secretaría de Economía</button>
+            <button data-filter=".secretara-de-salud">Secretaría de Salud</button>
+            <button data-filter=".banco-de-mxico">Banco de México</button>
+            <button data-filter=".secretara-de-educacin-pblica">Secretaría de Educación Pública</button>
+            <button data-filter=".consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social">CONEVAL</button>
+            <button data-filter=".petrleos-mexicanos">Petróleos Mexicanos</button>
+            <button data-filter=".secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin">SAGARPA</button>
+            <button data-filter=".secretara-de-medio-ambiente-y-recursos-naturales">SEMARNAT</button>
+            <button data-filter=".secretara-de-comunicaciones-y-transporte">SCT</button>
+            <button data-filter=".secretara-de-energa">Secretaría de Energía</button>
+            <button data-filter=".secretara-de-desarrollo-social">Secretaría de Desarrollo Social</button>
+            <button data-filter=".instituto-mexicano-del-seguro-social">IMSS</button>
+            <button data-filter=".instituto-nacional-electoral">Instituto Nacional Electoral</button>
+    </div>
+  </div>
+
+  <div class="m-filter-menu">
+    <h3>Categoría</h3> <div id="filters-category" class="m-candidates-buttons button-group" data-toggle="buttons-checkbox" data-filter-group="category"> <button data-filter="*">Borrar filtro</button>
+        <button data-filter=".business-services">Servicios Empresariales</button>
+        <button data-filter=".data-technology">Tecnología/Datos</button>
+        <button data-filter=".education">Educación</button>
+        <button data-filter=".energy">Energía</button>
+        <button data-filter=".environment-weather">Clima y Medio Ambiente</button>
+        <button data-filter=".finance-investment">Finanzas e Inversiones</button>
+        <button data-filter=".food-agriculture">Agricultura y Alimentación</button>
+        <button data-filter=".geospatial-mapping">Mapeo/Geoespacial</button>
+        <button data-filter=".governance">Gobierno</button>
+        <button data-filter=".healthcare">Salud</button>
+        <button data-filter=".housing-real-estate">Vivienda/Bienes Raíces</button>
+        <button data-filter=".insurance">Seguros</button>
+        <button data-filter=".legal-services">Servicios Legales</button>
+        <button data-filter=".lifestyle-consumer">Estilos de vida y Consumidores</button>
+        <button data-filter=".media-communications">Medios y Comunicación</button>
+        <button data-filter=".research-consulting">Investigación y Consultoría</button>
+        <button data-filter=".scientific-research">Investigación Científica</button>
+        <button data-filter=".transportation">Transporte</button>
+    </div>
+  </div>
+  <div id="chart"></div>
+
+  <div class="button-group legend" id="legend">
+    <div class="filter-by">
+      <span>Filtrar por:</span>
+    </div>
+    <div class="data-filters">
+      <div class="survey-filter" data-filter-group="survey">
+        <button class="color survey" data-filter=".survey-company">Encuesta rellenada</button>
+        <button class="color candidate" data-filter=":not(.survey-company)">Encuesta pendiente</button>
+        <button class="color all" data-filter="*">Borrar filtro</button><br>
+      </div>
+      <div class="company-type-filter" data-filter-group="company-type">
+        <button class="color public" data-filter=".public">Pública</button>
+        <button class="color private" data-filter=".private">Privada</button>
+        <button class="color private" data-filter=".nonprofit">Sin Fines de Lucro</button>
+        <button class="color non-profit" data-filter=":not(.nonprofit, .private, .public)">Otro</button>
+        <button class="color all" data-filter="*">Borrar filtro</button><br>
+      </div>
+      <button class="clear-all-filters">Borrar todos los filtros</button>
+    </div>
+  </div>
+
+  <div id="spinner"></div>
+  <div class="m-candidates isotopes-container" data-isotope-options='{ "layoutMode": "fitColumns" }'>
+        <div class="m-candidates-item  privada DF">
+          <a href="/es/mx/companies/blimp"><h3><strong>Blimp</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">En Blimp ofrecemos dirección estratégica y servicios creativos para crear aplicaciones móviles y sitios web. </p>
+        </div>
+        <div class="m-candidates-item gobierno privada YN instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/egob-blue-ocean-technologies"><h3><strong>eGob (Blue Ocean Technologies)</strong></h3></a>
+          <em>Gobierno</em>
+          <p class="m-homepage-list-desc">Blue Ocean Technologies es una empresa mexicana de base tecnológica especializada en el desarrollo e integración de soluciones para Gobierno Digital.
+</p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial privada DF instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral universidad-nacional-autnoma-de-mxico universidad-autnoma-metropolitana servicio-sismolgico-nacional cmara-de-diputados cmara-de-senadores ciudad-de-mxico secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/cartogrfica"><h3><strong>Cartográfica</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Cartográfica es una startup mexicana dedicada a desarrollar sistemas para la organización, visualización y análisis de datos.</p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial sin-fines-de-lucro NL instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/centro-de-integracin-ciudadana"><h3><strong>Centro de Integración Ciudadana</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">El CIC es una red ciudadana que enlaza e integra al ciudadano y las autoridades  en temas que impactan a la sociedad.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos sin-fines-de-lucro NL petrleos-mexicanos survey-company">
+          <a href="/es/mx/companies/codeando-mxico"><h3><strong>Codeando México</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Codeando México es una organización sin fines de lucro dedicada a crear innovación cívica a través de tecnología y datos abiertos. </p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-salud secretara-de-educacin-pblica secretara-de-gobernacin instituto-nacional-electoral survey-company">
+          <a href="/es/mx/companies/mapdata"><h3><strong>MapData</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Proveedor de tecnologías, información y entendimiento geográfico para la sociedad del conocimiento.
+</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/el-universal"><h3><strong>El Universal</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">El Universal es conocido como "el diario de la vida nacional." Es uno de los diarios de mayor circulación en México.
+</p>
+        </div>
+        <div class="m-candidates-item  privada DF">
+          <a href="/es/mx/companies/enova"><h3><strong>Enova</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Enova es una empresa social que crea espacios y modelos educativos innovadores. </p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social secretara-de-salud secretara-de-educacin-pblica secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/opi"><h3><strong>OPI</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">OPI desarrolla tecnología de punta para una mejor generación y procesamiento de datos del sector público. </p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-desarrollo-econmico-del-df municipio-de-lerma-estado-de-mxico municipio-de-chalco-estado-de-mxico municipio-de-tenango-del-valle-estado-de-mxico municipio-de-toluca-estado-de-mxico municipio-de-huixquilucan-estado-de-mxico municipio-de-metepec-estado-de-mxico municipio-de-xalapa-estado-de-veracruz municipio-de-zapopan-estado-de-jalisco municipio-de-san-luis-potos-san-luis-potos gobierno-de-morelos survey-company">
+          <a href="/es/mx/companies/abt-associates-inc"><h3><strong>Abt Associates, Inc</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Abt Associates implementa el Programa de Política Económica para México, enfocado a mejorar la productividad y competitividad a través de asistencia técnica al sector público.</p>
+        </div>
+        <div class="m-candidates-item gobierno privada PL instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico secretara-de-turismo survey-company">
+          <a href="/es/mx/companies/gobierno-fcil"><h3><strong>Gobierno Fácil</strong></h3></a>
+          <em>Gobierno</em>
+          <p class="m-homepage-list-desc">Gobierno Fácil traduce a los ciudadanos los procesos y la información de la administración pública.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica petrleos-mexicanos comisin-federal-de-electricidad secretara-de-salud secretara-de-turismo secretara-de-energa secretara-de-hacienda-y-crdito-pblico secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-medio-ambiente-y-recursos-naturales secretara-de-la-funcin-pblica secretara-de-gobernacin secretara-de-economa presidencia-de-la-repblica procuradura-general-de-la-repblica suprema-corte-de-justicia-de-la-nacin secretara-de-desarrollo-social instituto-mexicano-del-seguro-social instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado secretara-del-trabajo-y-previsin-social secretara-de-desarrollo-agrario-territorial-y-urbano secretara-de-comunicaciones-y-transporte consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social banco-de-mxico survey-company">
+          <a href="/es/mx/companies/el-instituto-mexicano-para-la-competitividad-ac-imco"><h3><strong>Instituto Mexicano para la Competitividad A.C. (IMCO)</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">IMCO es un centro de investigación aplicada, independiente, apartidista que estudia los fenómenos socio-económicos que afectan la competitividad de México en el contexto global.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones pblica NL instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico petrleos-mexicanos comisin-federal-de-electricidad presidencia-de-la-repblica secretara-del-trabajo-y-previsin-social consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social instituto-mexicano-del-seguro-social secretara-de-comunicaciones-y-transporte secretara-de-economa secretara-de-energa banco-de-mxico">
+          <a href="/es/mx/companies/banorte-ixe"><h3><strong>Banorte-Ixe</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Banorte, la subsidiaria bancaria de GFNorte, es actualmente la tercera institución bancaria más grande en México medida en tamaño de depósitos y crédito.</p>
+        </div>
+        <div class="m-candidates-item transporte sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/the-institute-for-transportation-and-development-policy-itdp-mexico"><h3><strong>The Institute for Transportation and Development Policy (ITDP) Mexico</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">ITDP es un organismo internacional sin fines de lucro que promueve el transporte sustentable y equitativo a nivel global.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada NL instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/icalia-labs"><h3><strong>Icalia Labs</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Icalia Labs es una empresa enfocada en el diseño y desarrollo de productos de software siguiendo metodologías ágiles.</p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial privada MN instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/ubcalas"><h3><strong>Ubícalas</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Directorio con geolocalización de 4 y medio millones de unidades económicas en México.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada NL instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/innku"><h3><strong>INNKU</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">INNKU desarrolla soluciones en internet, crea software basado en web y dispositivos móviles.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/buenda--laredo"><h3><strong>Buendía & Laredo</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Buendía & Laredo es una consultoría líder en el diseño, implementación y análisis de estudios de mercado y de Opinión Pública en México.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-economa promxico survey-company">
+          <a href="/es/mx/companies/deloitte"><h3><strong>Deloitte</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Deloitte es una firma de consultoría global y la firma más grande de servicios profesionales en el país.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/crdito-real"><h3><strong>Crédito Real</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Crédito Real brinda servicios financieros en las áreas de PYMES, autos, consumo, nómina y crédito. </p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin secretara-de-relaciones-exteriores secretara-de-educacin-pblica consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social secretara-de-desarrollo-social comisin-federal-de-electricidad secretara-de-la-funcin-pblica secretara-de-salud instituto-nacional-electoral correos-de-mxico contralora-del-distrito-federal heroico-cuerpo-de-bomberos-del-distrito-federal procuradura-ambiental-y-del-ordenamiento-territorial-del-distrito-federal sistema-de-transporte-colectivo-de-la-ciudad-de-mxico ciudad-de-mxico survey-company">
+          <a href="/es/mx/companies/data4"><h3><strong>Data4</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Data4 es una empresa que trabaja para promover el conocimiento amplio de datos, buen gobierno y acceso en Latinoamérica.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/integralia-consultores"><h3><strong>Integralia Consultores</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Integralia es una empresa de consultoría en asuntos públicos.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada QR instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica secretara-de-medio-ambiente-y-recursos-naturales petrleos-mexicanos survey-company">
+          <a href="/es/mx/companies/spaceship-labs"><h3><strong>Spaceship Labs</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Spaceship Labs es una empresa en crecimiento con mucha energia e ideas nuevas. Nos enfocamos en software, desarrollando plataformas de diversos tipos. </p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races pblica DF survey-company">
+          <a href="/es/mx/companies/abc"><h3><strong>ABC</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">PRUEBA</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral instituto-del-fondo-nacional-de-la-vivienda-para-los-trabajadores survey-company">
+          <a href="/es/mx/companies/kubofinanciero"><h3><strong>kubo.financiero</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Plataforma que permite a personas solicitar prestamos por internet a tasas significativamente menores y a otras personas invertir en esos proyectos con mejores rendimientos.</p>
+        </div>
+        <div class="m-candidates-item salud privada DF secretara-de-salud survey-company">
+          <a href="/es/mx/companies/previta"><h3><strong>Previta</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">PREVITA desarrolla estrategias que permiten prevenir la aparición y evolución de enfermedades.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/klustera"><h3><strong>Klustera</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Klustera es un startup mexicano que utiliza Ciencia de Datos para optimizar los presupuestos de Medios Digitales.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/c230-consultores"><h3><strong>C230 Consultores</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">C230 Consultores ofrece servicios a clientes públicos y privados para fomentar el desarrollo social y económico de América Latina y México.</p>
+        </div>
+        <div class="m-candidates-item educacin privada BS survey-company">
+          <a href="/es/mx/companies/abc-de-mexico"><h3><strong>ABC de Mexico</strong></h3></a>
+          <em>Educación</em>
+          <p class="m-homepage-list-desc">Prueba</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada JC instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral secretara-de-gobernacin secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/kueski"><h3><strong>Kueski</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Kueski es una plataforma que otorga micro-créditos 100% en línea.</p>
+        </div>
+        <div class="m-candidates-item  privada DF">
+          <a href="/es/mx/companies/ondore"><h3><strong>Ondore</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Ondore aplica algoritmos, análisis y minería de datos para convertir los datos en conocimiento práctico que impulsa resultados empresariales. </p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada CH instituto-nacional-de-estadstica-y-geografa secretara-de-salud survey-company">
+          <a href="/es/mx/companies/agencia-de-estadstica-de-mercados-sc-aem"><h3><strong>Agencia de Estadística de Mercados S.C. (AEM)</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Somos una empresa de investigación, integrada por economistas y con cobertura en la zona norte del país (6 estados). </p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF petrleos-mexicanos secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/axesat-mxico"><h3><strong>Axesat México</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Axesat es una empresa de telecomunicaciones especializada en la prestación de servicios satelitales para el mercado empresarial, gubernamental y corporativo.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/partido-surrealista"><h3><strong>Partido Surrealista</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">En el Partido Surrealista Mexicano descubrimos soluciones a problemas, implementándolas con software y hardware a la medida de las necesidades de nuestros clientes.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/fractal"><h3><strong>Fractal</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Somos un equipo con 4 años de experiencia trabajando juntos en análisis de data. Nuestra herramienta hace fácil concentrar y analizar tu data.</p>
+        </div>
+        <div class="m-candidates-item energa impacto-social NL instituto-nacional-de-estadstica-y-geografa secretara-de-energa petrleos-mexicanos survey-company">
+          <a href="/es/mx/companies/fundacin-invictus"><h3><strong>Fundación Invictus</strong></h3></a>
+          <em>Energía</em>
+          <p class="m-homepage-list-desc">Invictus se lanza en Diciembre 2014 para hacer inteligencia energética en el consumo eléctrico residencial y organizar el mercado energético en México.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada JC secretara-de-medio-ambiente-y-recursos-naturales survey-company">
+          <a href="/es/mx/companies/smartplace"><h3><strong>Smartplace</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Smartplace desarrolla aplicaciones móviles que disponen de herramientas de localización, notificación, conexión remoto, y comercio electrónico, entre otras. </p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada NL instituto-nacional-de-estadstica-y-geografa secretara-de-medio-ambiente-y-recursos-naturales secretara-de-desarrollo-social secretara-de-economa secretara-de-gobernacin comisin-de-cooperacin-econmica-fronteriza consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social survey-company">
+          <a href="/es/mx/companies/el-narval-mundial"><h3><strong>El Narval Mundial</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Conocemos el potencial del vecino en su entorno inmediato y desarrollamos proyectos para ponerlo en valor.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada NL instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/ignia-partners"><h3><strong>IGNIA Partners</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">IGNIA es una empresa de capital emprendedor que apoya empresas de alto crecimiento que atienden a la base de la pirámide socio-económica en México.</p>
+        </div>
+        <div class="m-candidates-item transporte privada DF">
+          <a href="/es/mx/companies/yaxi"><h3><strong>Yaxi</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Yaxi es una plataforma que conecta a los pasajeros con los mejores taxistas de la ciudad de forma fácil, segura, y rápida.</p>
+        </div>
+        <div class="m-candidates-item servicios-legales privada VZ instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica suprema-corte-de-justicia-de-la-nacin poder-judicial-del-estado-de-mxico poder-judicial-del-estado-de-veracruz survey-company">
+          <a href="/es/mx/companies/buholegal"><h3><strong>Buholegal</strong></h3></a>
+          <em>Servicios Legales</em>
+          <p class="m-homepage-list-desc">Buholegal ofrece recursos jurídicos para abogados litigantes en donde se puede monitorear sus casos y recibir alertas cuando haya actividad en su asunto.</p>
+        </div>
+        <div class="m-candidates-item othertelecomunicaciones- pblica JC">
+          <a href="/es/mx/companies/ho1a"><h3><strong>Ho1a</strong></h3></a>
+          <em>Other,Telecomunicaciones </em>
+          <p class="m-homepage-list-desc">ho1a es una empresa de comunicación y tecnología integrada con más de 22 en el mercado mexicano de telecomunicaciones y tecnologías de la información.</p>
+        </div>
+        <div class="m-candidates-item  privada DF">
+          <a href="/es/mx/companies/clip"><h3><strong>Clip</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Con Clip acepta de manera sencilla y segura las tarjetas de crédito y débito con Clip desde tu Smartphone o Tablet Android o Apple.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones pblica DF">
+          <a href="/es/mx/companies/pademobile"><h3><strong>Pademobile</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Pademobile es un plataforma internacional de medios de pago y operaciones electrónicas, usando como herramienta el teléfono celular.</p>
+        </div>
+        <div class="m-candidates-item transporte privada DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/reserbus"><h3><strong>Reserbus</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Reserbus.com es una plataforma para búsqueda, selección y compra de boletos de autobús en América Latina.</p>
+        </div>
+        <div class="m-candidates-item transporte privada DF">
+          <a href="/es/mx/companies/aventones"><h3><strong>Aventones</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Aventones es un servicio de carpooling para empleados de la misma compañía entre otros servicios complementarios basados en la creación de cultura en cada organización.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF">
+          <a href="/es/mx/companies/conekta"><h3><strong>Conekta</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Conekta es una institución financiera y de tecnología que tiene como objetivo desarrollar sistemas de pago que ayuden a nuestros clientes a monetizar exitosamente.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/konfo"><h3><strong>Konfío</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Konfío es una una institución financiera que ofrece préstamos en línea para capital de trabajo, sin requisitos tradicionales, gracias a un análisis basado en tecnología.</p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica secretara-de-comunicaciones-y-transporte secretara-de-medio-ambiente-y-recursos-naturales survey-company">
+          <a href="/es/mx/companies/propiedadescom"><h3><strong>Propiedades.com</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">Propiedades.com es una plataforma en línea cuya objetivo es hacer más eficiente el proceso de ofertar una propiedad y promover una decisión informada del consumidor.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF">
+          <a href="/es/mx/companies/zeb-studios"><h3><strong>Zeb Studios</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Zebas Studios se especializa en el desarrollo de apps móviles.</p>
+        </div>
+        <div class="m-candidates-item servicios-legales privada DF suprema-corte-de-justicia-de-la-nacin">
+          <a href="/es/mx/companies/bloc"><h3><strong>Bloc</strong></h3></a>
+          <em>Servicios Legales</em>
+          <p class="m-homepage-list-desc">BLOC es un buró de antecedentes legales e impagos que utiliza información pública gubernamental para generar Reportes de Antecedentes Legales (RUAL).</p>
+        </div>
+        <div class="m-candidates-item transporte pblica DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/carrot-mxico"><h3><strong>Carrot México</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Carrot es la primera empresa de autos compartidos en México, ofreciendo una alternativa sustentable a la posesión de auto propio.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico secretara-de-educacin-pblica secretara-de-hacienda-y-crdito-pblico comisin-federal-de-electricidad secretara-de-salud survey-company">
+          <a href="/es/mx/companies/mckinsey--company"><h3><strong>McKinsey & Company</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">McKinsey es una firma de consultoría estratégica a nivel mundial que ayuda a las organizaciones del sector privado, público, y social a resolver sus problemas.</p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races pblica DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/akko-group"><h3><strong>Akko Group</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">Nuestra compañia se caracteriza por la integracion de 3 componentes fundamentales que garantizan nuestros resultados: investigacion, pragmatismo y estrategias de inteligencia.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora sin-fines-de-lucro DF secretara-de-gobernacin procuradura-general-de-la-repblica instituto-nacional-de-estadstica-y-geografa comisin-nacional-de-los-derechos-humanos secretara-de-la-defensa-nacional consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social secretara-de-hacienda-y-crdito-pblico secretara-de-salud secretara-de-economa secretara-de-la-funcin-pblica secretara-de-desarrollo-social secretara-del-trabajo-y-previsin-social instituto-nacional-de-las-mujeres instituto-nacional-electoral presidencia-de-la-repblica secretara-de-educacin-pblica secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-comunicaciones-y-transporte secretara-de-energa survey-company">
+          <a href="/es/mx/companies/fundar-centro-de-anlisis-e-investigacin"><h3><strong>Fundar Centro de Análisis e Investigación</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Fundar es una institución dedicada a la investigación, difusión y enseñanza en torno a aspectos relacionados con la democracia y la participación ciudadana.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos pblica DF secretara-de-medio-ambiente-y-recursos-naturales instituto-nacional-de-estadstica-y-geografa secretara-de-movilidad-del-distrito-federal survey-company">
+          <a href="/es/mx/companies/google"><h3><strong>Google</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">La misión de Google es organizar la información del mundo y lograr que sea útil y accesible para todo el mundo.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada PL instituto-nacional-de-estadstica-y-geografa secretara-de-salud survey-company">
+          <a href="/es/mx/companies/autotraffic"><h3><strong>Autotraffic</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Autotraffic tiene más de 10 años de experiencia en el ramo de la tecnología para seguridad pública, específicamente para mejorar la seguridad vial.
+</p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/banco-de-informacin-y-estudios-oaxaca-"><h3><strong>Banco de Información y Estudios Oaxaca </strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica promxico secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-economa secretara-de-turismo petrleos-mexicanos comisin-federal-de-electricidad secretara-de-relaciones-exteriores secretara-de-gobernacin secretara-del-trabajo-y-previsin-social secretara-de-hacienda-y-crdito-pblico secretara-de-energa secretara-de-medio-ambiente-y-recursos-naturales instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado secretara-de-desarrollo-agrario-territorial-y-urbano survey-company">
+          <a href="/es/mx/companies/atlantia-search"><h3><strong>Atlantia Search</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Somos una plataforma en linea de información especializada bajo demanda. Generamos informes de información especializada de cualquier tema y tamaño, investigando, validando y compilando información. </p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales sin-fines-de-lucro DF secretara-de-desarrollo-social secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/alternativas-y-capacidades"><h3><strong>Alternativas y Capacidades</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Alternativas y Capacidades es una organización fortalecedora de otras organizaciones de la sociedad civil en México. </p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/bikestorming"><h3><strong>Bikestorming</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora asociacin DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/amai"><h3><strong>AMAI</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Agrupación independiente de organizaciones que realizan distintas fases del proceso de generación y transformación de datos para tomar decisiones en ámbitos sociales o de negocios.</p>
+        </div>
+        <div class="m-candidates-item   DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/azavea-"><h3><strong>Azavea </strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/balefire-global"><h3><strong>Balefire Global</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/db-"><h3><strong>D&B </strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial pblica DF">
+          <a href="/es/mx/companies/here"><h3><strong>Here</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Here es una compañía propiedad de Nokia encargada del servicio de mapas gratuito con el mismo nombre.</p>
+        </div>
+        <div class="m-candidates-item  pblica DF">
+          <a href="/es/mx/companies/ibm"><h3><strong>IBM</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   BC">
+          <a href="/es/mx/companies/navico-mexico"><h3><strong>Navico Mexico</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">La compañía de electrónicas marítimas más grande del mundo, y la empresa matriz para las marcas electrónicas Lowrance, Simrad y B&G.</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin pblica MC">
+          <a href="/es/mx/companies/rr-donnelly"><h3><strong>R.R. Donnelly</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">RR Donnelley es un proveedor mundial de servicios integrales de impresión y relacionados.</p>
+        </div>
+        <div class="m-candidates-item educacin sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-economa nacional-financiera consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social instituto-nacional-de-las-mujeres survey-company">
+          <a href="/es/mx/companies/crea"><h3><strong>CREA</strong></h3></a>
+          <em>Educación</em>
+          <p class="m-homepage-list-desc">CREA capacita y asesora a mujeres de escasos recursos para fortalecer e impulsar sus empresas, generar empleos y generar oportunidades de desarrollo.</p>
+        </div>
+        <div class="m-candidates-item   AS">
+          <a href="/es/mx/companies/unreasonable-mexico"><h3><strong>Unreasonable Mexico</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/yansa"><h3><strong>Yansa</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/geoconservacin"><h3><strong>Geoconservación</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/logical-bricks"><h3><strong>Logical Bricks</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/colibr-consulting"><h3><strong>Colibrí Consulting</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/puente-mxico"><h3><strong>Puente México</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item estilos-de-vida-y-consumidores privada OC">
+          <a href="/es/mx/companies/colectivo-1050"><h3><strong>Colectivo 1050</strong></h3></a>
+          <em>Estilos de vida y Consumidores</em>
+          <p class="m-homepage-list-desc">Somos un colectivo formado por artesanos, diseñadores y artistas.</p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/xaquixe"><h3><strong>Xaquixe</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   OC">
+          <a href="/es/mx/companies/escuela-de-formacin-ciudadana-para-el-bien-comn"><h3><strong>Escuela de Formación Ciudadana para El Bien Común</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/oracle"><h3><strong>Oracle</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/nova-mxico"><h3><strong>Nova México</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/borde-poltico"><h3><strong>Borde Político</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-desarrollo-social banco-del-ahorro-nacional-y-servicios-financieros comisin-nacional-para-el-desarrollo-de-los-pueblos-indgenas secretara-de-desarrollo-agrario-territorial-y-urbano consejo-nacional-de-ciencia-y-tecnologa secretara-de-salud secretara-de-hacienda-y-crdito-pblico instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado instituto-mexicano-del-seguro-social instituto-nacional-de-las-mujeres secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-economa secretara-de-educacin-pblica secretara-de-medio-ambiente-y-recursos-naturales secretara-del-trabajo-y-previsin-social">
+          <a href="/es/mx/companies/transparencia-mexicana"><h3><strong>Transparencia Mexicana</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Transparencia Mexicana es el capítulo nacional en México de Transparencia Internacional, la red global anticorrupción más importante con presencia en más de 90 países.</p>
+        </div>
+        <div class="m-candidates-item salud sin-fines-de-lucro CS">
+          <a href="/es/mx/companies/fundacin-cntaro-azul"><h3><strong>Fundación Cántaro Azul</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">En Fundación Cántaro Azul, brindamos a las comunidades rurales acceso a agua segura, para su consumo sostenible, mientras generamos empleos locales.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/el-financiero"><h3><strong>El Financiero</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/expansin-"><h3><strong>Expansión </strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF secretara-de-hacienda-y-crdito-pblico banco-de-mxico secretara-de-desarrollo-social consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social comisin-federal-de-electricidad secretara-de-energa cmara-de-diputados instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/exponential-knowledge"><h3><strong>Exponential Knowledge</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">A partir de la información de internet y redes sociales generamos inteligencia y estrategia para resolver los problemas de empresas, gobiernos e individuos.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora sin-fines-de-lucro DF secretara-de-gobernacin instituto-nacional-de-estadstica-y-geografa banco-de-mxico consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social secretara-de-energa petrleos-mexicanos secretara-de-hacienda-y-crdito-pblico secretara-de-economa comisin-federal-de-electricidad secretara-de-educacin-pblica nacional-financiera">
+          <a href="/es/mx/companies/centro-de-investigacin-para-el-desarrollo-cidac"><h3><strong>Centro de Investigación para el Desarrollo (CIDAC)</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Think tank independiente, sin fines de lucro, que realiza investigaciones y presenta propuestas para el desarrollo de México en el mediano y largo plazo.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada NL secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/aporta"><h3><strong>Aporta</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Aporta es un portal que utilizará el poder del Internet y de herramientas tecnológicas, con el objetivo de digitalizar la filantropía en México.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada JC instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico instituto-nacional-electoral secretara-de-comunicaciones-y-transporte secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/aspiria"><h3><strong>Aspiria</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Aspiria busca revolucionar el acceso de capital de trabajo a las Mipymes con tecnología y ayuda a los micronegocios enfocarse en sus resultados.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF">
+          <a href="/es/mx/companies/pagofcil"><h3><strong>PagoFácil</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">PagoFácil fabricamos herramientas para que nuestros clientes le puedan cobrar a sus clientes.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada QT secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/signot"><h3><strong>SIGNOT</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Desarrolla herramientas tecnológicas que apoyen en el proceso notarial desde una visión integral.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada BC">
+          <a href="/es/mx/companies/ynnovateck"><h3><strong>Ynnovateck</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Es un despacho de Consultoría, Asesoría, Capacitación y Conferencias Empresariales. </p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF secretara-de-economa instituto-nacional-de-estadstica-y-geografa banco-de-mxico consejo-nacional-de-ciencia-y-tecnologa secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/noorcus-innovation"><h3><strong>Noorcus Innovation</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Noorcus Innovation trabaja en la comercialización de tecnología, enfocándose en consultoría, licenciamiento, y empresas a base tec.
+</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada JC instituto-nacional-de-estadstica-y-geografa secretara-de-desarrollo-agrario-territorial-y-urbano secretara-de-la-defensa-nacional secretara-de-medio-ambiente-y-recursos-naturales survey-company">
+          <a href="/es/mx/companies/cuadra-urbanismo"><h3><strong>Cuadra Urbanismo</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Es un despacho dedicado a la disciplina urbana. Su perspectiva es sustentable y transdisciplinar, en donde se conjugan elementos sociales, ambientales, culturales, económicos y espaciales.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada JC municipio-de-zapopan-estado-de-jalisco instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral banco-de-mxico">
+          <a href="/es/mx/companies/zapopan-lab"><h3><strong>Zapopan Lab</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Laboratorio ciudadano fomentando la innovación abierta en el municipio de Zapopan. Emprendimientos y acercamientos de la ciencia y la tecnología.</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin privada DF">
+          <a href="/es/mx/companies/animal-poltico"><h3><strong>Animal Político</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">Animal Político es una nueva publicación digital enfocada en la información política a nivel nacional e internacional, además de humor y debates. </p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada NL">
+          <a href="/es/mx/companies/habor-economics"><h3><strong>Habor Economics</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Analizamos el entorno económico internacional con énfasis en Estados Unidos y México.</p>
+        </div>
+        <div class="m-candidates-item otherreciclaje sin-fines-de-lucro SP">
+          <a href="/es/mx/companies/fundacin-switchgreen"><h3><strong>Fundación Switchgreen</strong></h3></a>
+          <em>Other,Reciclaje</em>
+          <p class="m-homepage-list-desc">Fundación Switchgreen es una Asociación Civil que busca reciclaje de todo equipo electrónico y la recuperación de sus elementos en bien del planeta.</p>
+        </div>
+        <div class="m-candidates-item transporte privada DF">
+          <a href="/es/mx/companies/netlift"><h3><strong>Netlift</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Netlift es una plataforma que provee soluciones de transporte de diversos modos. Su tecnología te ayuda a moverte entre tu trabajo y tu casa.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada BC">
+          <a href="/es/mx/companies/aztec-business-solutions-"><h3><strong>Aztec Business Solutions </strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">OFRECEMOS SOLUCIONES DE SOFTWARE Y SERVICIOS DE TI PARA AYUDAR A LA PEQUEÑA Y MEDIANA EMPRESA EN ALCANZAR SUS OBJETIVOS ESTRATÉGICOS Y OPERATIVOS.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada SR secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin instituto-nacional-de-estadstica-y-geografa secretara-de-economa secretara-de-turismo secretara-de-educacin-pblica secretara-de-comunicaciones-y-transporte instituto-mexicano-del-seguro-social banco-de-mxico">
+          <a href="/es/mx/companies/tis-consulting-group"><h3><strong>TIS Consulting Group</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">TIS Consulting Group es una firma de consultoría enfocada en los problemas operacionales, tácticos, estratégicas y de productividad.</p>
+        </div>
+        <div class="m-candidates-item   MC">
+          <a href="/es/mx/companies/red-estrucutral-de-desarrollos"><h3><strong>Red Estrucutral de Desarrollos</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora pblica DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/descifra-"><h3><strong>Descifra </strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Servicios de inteligencia basada en localización que analiza e investiga información social y económica para conocer a profundidad el entorno local. 
+</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin pblica DF secretara-de-comunicaciones-y-transporte instituto-nacional-de-estadstica-y-geografa comisin-federal-de-electricidad survey-company">
+          <a href="/es/mx/companies/telefnica"><h3><strong>Telefónica</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">Una compañía de telecomunicación digital con una presencia en Europa y Latinoamérica y 320+ millones de clientes a nivel mundial.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social secretara-de-desarrollo-agrario-territorial-y-urbano secretara-de-desarrollo-social secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/telus"><h3><strong>Telus</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Telus es una empresa que ofrece inteligencia para la política a partir del uso de la información, bases de datos y sistemas de información geográfica.</p>
+        </div>
+        <div class="m-candidates-item transporte privada DF">
+          <a href="/es/mx/companies/moovit"><h3><strong>MOOVIT</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc">Moovit es una app social de transporte público.
+</p>
+        </div>
+        <div class="m-candidates-item investigacin-del-consumidor-y-medios privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/nielsen-ibope"><h3><strong>Nielsen IBOPE</strong></h3></a>
+          <em>Investigación del consumidor y medios</em>
+          <p class="m-homepage-list-desc">Empresa líder mundial en investigación del consumidor, los medios y sus audiencias a través innovacion tecnológica contínua.</p>
+        </div>
+        <div class="m-candidates-item estilos-de-vida-y-consumidores pblica MC secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin">
+          <a href="/es/mx/companies/walmart-de-mxico-y-centroamrica"><h3><strong>Walmart de México y Centroamérica</strong></h3></a>
+          <em>Estilos de vida y Consumidores</em>
+          <p class="m-homepage-list-desc">Walmart de México y Centroamérica es una empresa dedicada al sector comercio.</p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales  DF instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico secretara-de-energa secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin">
+          <a href="/es/mx/companies/antad"><h3><strong>ANTAD</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Asociación Nacional de Tiendas de Autoservicio y Departamentales, A. C (ANTAD) ofrece productos y servicios para apoyar el Desarrollo del Comercio Detallista.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones partnership DF">
+          <a href="/es/mx/companies/compite"><h3><strong>COMPITE</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Desarrollar a través de Consultoría y Capacitación especializadas, MIPyME's altamente eficientes y productivas con elevados estándares de Calidad y Responsabilidad Social.</p>
+        </div>
+        <div class="m-candidates-item  sin-fines-de-lucro MC">
+          <a href="/es/mx/companies/incuba-social"><h3><strong>Incuba Social</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora partnership--sociedad DF instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral survey-company">
+          <a href="/es/mx/companies/abison-burke"><h3><strong>Abison Burke</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">En Abison Burke contamos con más de 12 años reuniendo talento especializado en diferentes áreas de mercadotecnia é investigación de mercado.</p>
+        </div>
+        <div class="m-candidates-item seguros privada AS instituto-nacional-de-estadstica-y-geografa secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin fideicomisos-instituidos-en-relacin-con-la-agricultura secretara-de-medio-ambiente-y-recursos-naturales survey-company">
+          <a href="/es/mx/companies/agroclima"><h3><strong>Agroclima</strong></h3></a>
+          <em>Seguros</em>
+          <p class="m-homepage-list-desc">Agroclima Informática Avanzada genera servicios exclusivos a PROAGRO, Protección Agropecuaria Compañía de Seguros.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico instituto-mexicano-del-seguro-social secretara-de-hacienda-y-crdito-pblico secretara-del-trabajo-y-previsin-social secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/banamex"><h3><strong>Banamex</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Banamex es una institución de banca múltiple con sede en la Ciudad de México. Es el segundo mayor banco en el país.</p>
+        </div>
+        <div class="m-candidates-item agricultura-y-alimentacin sin-fines-de-lucro DF secretara-de-hacienda-y-crdito-pblico instituto-nacional-de-estadstica-y-geografa secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin secretara-de-economa secretara-de-salud consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social survey-company">
+          <a href="/es/mx/companies/consejo-mexicano-de-la-carne"><h3><strong>Consejo Mexicano de la Carne</strong></h3></a>
+          <em>Agricultura y Alimentación</em>
+          <p class="m-homepage-list-desc">Consejo Mexicano de la Carne está integrado por empresas que se dedican a las actividades relacionadas con la industria de la carne. 
+</p>
+        </div>
+        <div class="m-candidates-item othertelecomunicacin pblica DF secretara-de-medio-ambiente-y-recursos-naturales secretara-de-comunicaciones-y-transporte survey-company">
+          <a href="/es/mx/companies/skyalert"><h3><strong>SkyAlert</strong></h3></a>
+          <em>Other,Telecomunicación</em>
+          <p class="m-homepage-list-desc">SkyAlert es una empresa privada Mexicana de Alertamiento Sísmico. </p>
+        </div>
+        <div class="m-candidates-item agricultura-y-alimentacin privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin">
+          <a href="/es/mx/companies/grupo-bimbo"><h3><strong>Grupo Bimbo</strong></h3></a>
+          <em>Agricultura y Alimentación</em>
+          <p class="m-homepage-list-desc">Grupo Bimbo es una empresa mexicana y líder a nivel internacional en la industria de panificación con operaciones en América, Asia y Europa.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora pblica DF instituto-nacional-de-estadstica-y-geografa promxico secretara-de-economa secretara-de-gobernacin">
+          <a href="/es/mx/companies/accenture"><h3><strong>Accenture</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Accenture es una compañía global de consultoría, tecnología y outsourcing.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada JC secretara-de-salud secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin survey-company">
+          <a href="/es/mx/companies/mitef-mexico"><h3><strong>MITEF Mexico</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">MITEF es una organización que contribuye con el desarrollo y creación de iniciativas innovadoras de base tecnológica en México a través de conferencias y laboratorios.</p>
+        </div>
+        <div class="m-candidates-item estilos-de-vida-y-consumidores pblica DF">
+          <a href="/es/mx/companies/machina-wearable-technology"><h3><strong>Machina Wearable Technology</strong></h3></a>
+          <em>Estilos de vida y Consumidores</em>
+          <p class="m-homepage-list-desc">Machina diseña ropa con tecnología integrada para hacer ‘máquinas vestibles’.</p>
+        </div>
+        <div class="m-candidates-item otherrecursos-humanos sin-fines-de-lucro NL instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica secretara-del-trabajo-y-previsin-social instituto-mexicano-del-seguro-social survey-company">
+          <a href="/es/mx/companies/movimiento-congruencia"><h3><strong>Movimiento Congruencia</strong></h3></a>
+          <em>Other,Recursos Humanos</em>
+          <p class="m-homepage-list-desc">Movimiento Congruencia es una iniciativa del sector empresarial que trabaja para brindar igualdad de oportunidades para la inclusión socio-laboral de las personas con discapacidad.</p>
+        </div>
+        <div class="m-candidates-item energa privada DF secretara-de-energa secretara-de-economa secretara-de-hacienda-y-crdito-pblico instituto-nacional-de-estadstica-y-geografa petrleos-mexicanos comisin-federal-de-electricidad presidencia-de-la-repblica survey-company">
+          <a href="/es/mx/companies/marcos-y-asociados"><h3><strong>Marcos y Asociados</strong></h3></a>
+          <em>Energía</em>
+          <p class="m-homepage-list-desc">Marcos y Asociados es asesor financiero y de desarrollo empresarial que se especializa en la industria de infraestrucutura y energía mexicana. </p>
+        </div>
+        <div class="m-candidates-item estilos-de-vida-y-consumidores  DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico secretara-de-comunicaciones-y-transporte secretara-del-trabajo-y-previsin-social secretara-de-turismo secretara-de-gobernacin instituto-mexicano-del-seguro-social">
+          <a href="/es/mx/companies/consejo-nacional-empresarial-turstico"><h3><strong>Consejo Nacional Empresarial Turístico</strong></h3></a>
+          <em>Estilos de vida y Consumidores</em>
+          <p class="m-homepage-list-desc">El CNET es el órgano cúpula de representación del sector empresarial turístico de México.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF secretara-de-energa instituto-mexicano-del-seguro-social instituto-nacional-de-estadstica-y-geografa secretara-de-desarrollo-social consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social gobierno-del-estado-de-tabasco consejo-nacional-de-ciencia-y-tecnologa">
+          <a href="/es/mx/companies/spectron-desarrollo"><h3><strong>Spectron Desarrollo</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Spectron Desarrollo S.C. es una sociedad civil que tiene como objetivo coadyuvar al desarrollo económico y social de México.</p>
+        </div>
+        <div class="m-candidates-item salud sin-fines-de-lucro DF secretara-de-salud instituto-mexicano-del-seguro-social petrleos-mexicanos instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado secretara-de-la-defensa-nacional secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/dvvimss"><h3><strong>DVVIMSS</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">Derechohabientes viviendo con VIH/SIDA del Instituto Mexicano del Seguro Social (DVVIMSS) es una organización conformada por usuarios del IMSS que viven con VIH.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/grupo-lala"><h3><strong>Grupo LaLa</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales privada DF secretara-de-hacienda-y-crdito-pblico instituto-mexicano-del-seguro-social petrleos-mexicanos instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/ernst--young"><h3><strong>EY</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Ernst & Young (EY) es una de las mayores firmas de servicios profesionales del mundo.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico secretara-de-economa cmara-de-diputados secretara-de-hacienda-y-crdito-pblico">
+          <a href="/es/mx/companies/instituto-mexicano-de-ejecutivos-de-finanzas-imef"><h3><strong>Instituto Mexicano de Ejecutivos de Finanzas (IMEF)</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">IMEF convoca y agrupa a los exponentes del sector financiero mexicano para apoyarlos en su desarrollo profesional y humano. </p>
+        </div>
+        <div class="m-candidates-item tecnologadatos sin-fines-de-lucro DF secretara-de-educacin-y-cultura-de-sonora survey-company">
+          <a href="/es/mx/companies/prosoftware-red-de-innovacin"><h3><strong>Prosoftware Red de Innovación</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Prosoftware es una red de innovación en tecnologías de la información. Cuenta con más de 50 empresas líderes afiliadas del sector público y privado.</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-economa banco-de-mxico secretara-de-hacienda-y-crdito-pblico instituto-federal-de-telecomunicaciones consejo-nacional-de-ciencia-y-tecnologa secretara-de-comunicaciones-y-transporte secretara-de-gobernacin survey-company">
+          <a href="/es/mx/companies/asociacin-mexicana-de-internet-ac"><h3><strong>Asociación Mexicana de Internet, A.C.</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">AMIPCI promueve el uso generalizado e intensivo de internet en los sectores estratégicos del país y su utilización y apropiación en la vida cotidiana.
+</p>
+        </div>
+        <div class="m-candidates-item salud privada DF secretara-de-salud instituto-nacional-de-estadstica-y-geografa secretara-de-educacin-pblica instituto-mexicano-del-seguro-social survey-company">
+          <a href="/es/mx/companies/plm-latinoamrica"><h3><strong>PLM Latinoamérica</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">PLM es una empresa líder en información digital e impresa sobre ciencias de la salud humana, animal y vegetal en América Latina.</p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales  DF banco-de-mxico instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico secretara-de-gobernacin secretara-de-energa">
+          <a href="/es/mx/companies/pricewaterhousecoopers-pwc"><h3><strong>PricewaterhouseCoopers (PwC)</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">PricewaterhouseCoopers (PwC) es la mayor organización de servicios profesionales del mundo. </p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin pblica DF">
+          <a href="/es/mx/companies/blackberry"><h3><strong>BlackBerry</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">BlackBerry es una marca de teléfonos inteligentes.</p>
+        </div>
+        <div class="m-candidates-item salud sin-fines-de-lucro DF secretara-de-salud">
+          <a href="/es/mx/companies/federacin-de-hemofilia-de-la-repblica-mexicana"><h3><strong>Federación de Hemofilia de la República Mexicana</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">Organización sin fines de lucro dedicada a mejorar las vidas de todas las personas con hemofilia en la República Mexicana.</p>
+        </div>
+        <div class="m-candidates-item  sin-fines-de-lucro DF comisin-federal-de-electricidad secretara-de-energa secretara-de-gobernacin secretara-de-desarrollo-agrario-territorial-y-urbano instituto-del-fondo-nacional-de-la-vivienda-para-los-trabajadores instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado sociedad-hipotecaria-federal instituto-mexicano-del-seguro-social petrleos-mexicanos secretara-de-salud secretara-de-educacin-pblica secretara-de-turismo secretara-de-hacienda-y-crdito-pblico">
+          <a href="/es/mx/companies/cmara-mexicana-de-la-industria-de-la-construccin"><h3><strong>Cámara Mexicana de la Industria de la Construcción</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Nuestra misión es "representar, fortalecer y apoyar a las empresas afiliadas, así como impulsar el desarrollo de la industria de la construcción."</p>
+        </div>
+        <div class="m-candidates-item educacin sin-fines-de-lucro DF secretara-de-medio-ambiente-y-recursos-naturales secretara-de-salud instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/fondo-para-la-comunicacin-y-educacin-ambiental-fcea"><h3><strong>Fondo para la Comunicación y Educación Ambiental (FCEA)</strong></h3></a>
+          <em>Educación</em>
+          <p class="m-homepage-list-desc">FCEA tiene la misión de promover el desarrollo de una cultura que comprometa a la sociedad mexicana con el mundo natural que la sustenta.
+
+
+</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/syngenta"><h3><strong>Syngenta</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora sin-fines-de-lucro DF secretara-de-educacin-pblica instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin procuradura-general-de-la-republica secretara-de-hacienda-y-crdito-pblico comisin-nacional-de-los-derechos-humanos consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado cmara-de-diputados petrleos-mexicanos secretara-de-desarrollo-social">
+          <a href="/es/mx/companies/mxico-evalua"><h3><strong>México Evalua</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">Centro independiente/apartidista que realiza evaluación de políticas públicas y propuestas para incidir en los procesos de administración pública y gestión de recursos gubernamentales. </p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/asociacin-mexicana-de-profesionales-inmobiliarios-ampi"><h3><strong>Asociación Mexicana de Profesionales Inmobiliarios (AMPI)</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">Organismo no gubernamental dedicada a la formación Integral de sus asociados, dignificar las prácticas inmobiliarias, y proteger los derechos de la propiedad privada.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social municipio-de-zapopan-estado-de-jalisco">
+          <a href="/es/mx/companies/morlan"><h3><strong>Morlan</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">En MORLAN nos dedicamos principalmente a hacer análisis de datos. </p>
+        </div>
+        <div class="m-candidates-item   JC">
+          <a href="/es/mx/companies/mind-mexico"><h3><strong>MIND Mexico</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada BC">
+          <a href="/es/mx/companies/arkusnexus"><h3><strong>arkusnexus</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/investigacin-de-mercado-grupo-idm"><h3><strong>Investigación de Mercado Grupo IDM</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">IDM es una compañía de análisis mercadotécnico.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones pblica DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico secretara-de-hacienda-y-crdito-pblico secretara-de-economa">
+          <a href="/es/mx/companies/jp-morgan"><h3><strong>J.P. Morgan</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Las principales líneas de negocios de J.P. Morgan en México son Commercial Bank, Investment Bank, Global Corporative Bank, Private Bank y Treasury & Securities Services. </p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales partnership DF secretara-de-economa instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico banco-de-mxico secretara-de-comunicaciones-y-transporte secretara-de-energa">
+          <a href="/es/mx/companies/kpmg-crdenas-dosal"><h3><strong>KPMG Cárdenas Dosal</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Somos 180 Socios y más de 2,800 profesionales en 18 oficinas ubicadas por todo el país para ofrecer servicios de auditoría, impuestos y asesoría.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada NL instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/banregio"><h3><strong>Banregio</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Banregio es una institución financiera que ofrece servicios de banca en especial a PyMES.</p>
+        </div>
+        <div class="m-candidates-item investigacin-y-consultora privada DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico secretara-de-economa secretara-de-hacienda-y-crdito-pblico secretara-de-salud secretara-de-comunicaciones-y-transporte">
+          <a href="/es/mx/companies/asociacin-mexicana-de-la-industria-automotrz-amia"><h3><strong>Asociación Mexicana de la Industria Automotríz (AMIA)</strong></h3></a>
+          <em>Investigación y Consultoría</em>
+          <p class="m-homepage-list-desc">AMIA es una asociación civil constituida por voluntad propia de las empresas fabricantes de vehículos establecidos en nuestro país el 3 de enero de 1951.</p>
+        </div>
+        <div class="m-candidates-item clima-y-medio-ambiente sin-fines-de-lucro DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin secretara-de-desarrollo-social comisin-federal-de-electricidad secretara-de-medio-ambiente-y-recursos-naturales">
+          <a href="/es/mx/companies/centro-de-estudios-jurdicos-y-ambientales-ceja"><h3><strong>Centro de Estudios Jurídicos y Ambientales (CEJA)</strong></h3></a>
+          <em>Clima y Medio Ambiente</em>
+          <p class="m-homepage-list-desc">ONG interesado en el estudio, desarrollo, difusión y aplicación eficaz del derecho ambiental para promover el desarrollo sustentable y los temas ambientales en general.</p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones pblica DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin banco-de-mxico secretara-de-desarrollo-agrario-territorial-y-urbano registro-nico-de-vivienda secretara-de-hacienda-y-crdito-pblico">
+          <a href="/es/mx/companies/moodys-analytics"><h3><strong>Moody's Analytics</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Publica ratings de 200+ compañías en México en los sectores de finanzas, gobierno, telecomunicaciones, servicios, y financiamiento estructurado. </p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/diario-oro-negro"><h3><strong>Diario Oro Negro</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item gobierno privada MN secretara-de-gobernacin secretara-de-desarrollo-agrario-territorial-y-urbano secretara-de-desarrollo-social comisin-nacional-para-el-conocimiento-y-uso-de-la-biodiversidad secretara-de-medio-ambiente-y-recursos-naturales instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/conurba"><h3><strong>Conurba</strong></h3></a>
+          <em>Gobierno</em>
+          <p class="m-homepage-list-desc">Consultoría y gestión urbana y ambiental</p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales sin-fines-de-lucro DF consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico secretara-de-gobernacin instituto-nacional-de-las-mujeres secretara-de-salud secretara-de-educacin-pblica instituto-nacional-electoral secretara-del-trabajo-y-previsin-social procuradura-general-de-la-republica suprema-corte-de-justicia-de-la-nacin secretara-de-comunicaciones-y-transporte">
+          <a href="/es/mx/companies/confederacin-patronal-de-la-repblica-mexicana-coparmex"><h3><strong>Confederación Patronal de la República Mexicana (COPARMEX)</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Sindicato patronal de afiliación voluntaria, que aglutina empresarios de todos los sectores, que buscan mediante ella su representación en el ámbito laboral y social.</p>
+        </div>
+        <div class="m-candidates-item   DF secretara-de-medio-ambiente-y-recursos-naturales instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/pepsico"><h3><strong>Pepsico</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa survey-company">
+          <a href="/es/mx/companies/amk-technologies"><h3><strong>AMK Technologies</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Nos encargamos del análisis, diseño, construcción, calidad, implementación y soporte tecnológico.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/pfizer"><h3><strong>Pfizer</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales sin-fines-de-lucro DF secretara-de-hacienda-y-crdito-pblico instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/centro-mexicano-para-la-filantropa-cemefi"><h3><strong>Centro Mexicano para la Filantropía (CEMEFI)</strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">Promueve y articula la participación filantrópica, comprometida y socialmente responsable de los ciudadanos, sus organizaciones sociales y empresas.</p>
+        </div>
+        <div class="m-candidates-item   DF instituto-nacional-de-estadstica-y-geografa banco-de-mxico">
+          <a href="/es/mx/companies/grupo-pochteca"><h3><strong>Grupo Pochteca</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/sin-embargo"><h3><strong>Sin Embargo</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/sin-fronteras"><h3><strong>Sin Fronteras</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial  DF instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/sistemas-de-informacin-geogrfica-sa-sigsa"><h3><strong>Sistemas de Información Geográfica, S.A. (SIGSA)</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Integra los sistemas de información geográfica con los procesos de trabajo, optimizando las tareas, visualizando información sobre el terreno, y apoyando la toma de decisiones.</p>
+        </div>
+        <div class="m-candidates-item medios-y-comunicacin pblica DF secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico secretara-de-economa secretara-de-gobernacin secretara-de-energa banco-de-mxico petrleos-mexicanos consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social">
+          <a href="/es/mx/companies/thompson-reuters"><h3><strong>Thomson Reuters</strong></h3></a>
+          <em>Medios y Comunicación</em>
+          <p class="m-homepage-list-desc">Thomson Reuters es una corporación multinacional que se especializa en medios de comunicación masivos y información.</p>
+        </div>
+        <div class="m-candidates-item servicios-empresariales privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-salud secretara-de-turismo banco-de-mxico secretara-de-comunicaciones-y-transporte secretara-de-educacin-pblica secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin">
+          <a href="/es/mx/companies/tns-"><h3><strong>TNS </strong></h3></a>
+          <em>Servicios Empresariales</em>
+          <p class="m-homepage-list-desc">TNS es la agencia de investigación adhoc más grande del mundo.  Tiene más de 40 años de experiencia en el mercado mexicano.</p>
+        </div>
+        <div class="m-candidates-item agricultura-y-alimentacin privada DF secretara-de-gobernacin secretara-de-agricultura-ganadera-desarrollo-rural-pesca-y-alimentacin survey-company">
+          <a href="/es/mx/companies/inta-mxico"><h3><strong>InTA México</strong></h3></a>
+          <em>Agricultura y Alimentación</em>
+          <p class="m-homepage-list-desc">Desarrollamos innovación tecnológica y las adaptamos a productores agropecuarios, comunidades marginadas, indígenas y rurales. Así, complementamos capacidades, logrando una unidad de trabajo que logre rentabilidad.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada QR instituto-nacional-de-estadstica-y-geografa petrleos-mexicanos survey-company">
+          <a href="/es/mx/companies/oooes"><h3><strong>oooES</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">oooES fue generada de la oportunidad de que las empresas puedan tener un mejor uso y soporte de las soluciones tecnologicas libres que existe.</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/bicimapas"><h3><strong>BiciMapas</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item finanzas-e-inversiones privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-economa banco-de-mxico secretara-de-desarrollo-social secretara-de-hacienda-y-crdito-pblico survey-company">
+          <a href="/es/mx/companies/unipagos"><h3><strong>Unipagos</strong></h3></a>
+          <em>Finanzas e Inversiones</em>
+          <p class="m-homepage-list-desc">Unipagos ofrece un método de pago simple y seguro, a través de teléfonos celulares inteligentes sin las restricciones de una cuenta bancaria.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa presidencia-de-la-repblica secretara-de-movilidad-del-distrito-federal survey-company">
+          <a href="/es/mx/companies/ayoui"><h3><strong>Ayoui</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Mejoramos servicios públicos usando datos abiertos y tecnología.</p>
+        </div>
+        <div class="m-candidates-item mapeogeoespacial privada DF">
+          <a href="/es/mx/companies/geoscape-international"><h3><strong>Geoscape International</strong></h3></a>
+          <em>Mapeo/Geoespacial</em>
+          <p class="m-homepage-list-desc">Inteligencia empresarial a través de servicios de datos, tecnología, y análisis. Ayudamos a nuestros clientes acceder oportunidades de alto crecimiento en un ambiente empresarial diverso. </p>
+        </div>
+        <div class="m-candidates-item educacin sin-fines-de-lucro DF secretara-de-gobernacin consejo-nacional-de-evaluacin-de-la-poltica-de-desarrollo-social instituto-nacional-de-estadstica-y-geografa">
+          <a href="/es/mx/companies/fundacin-metlife"><h3><strong>Fundación MetLife</strong></h3></a>
+          <em>Educación</em>
+          <p class="m-homepage-list-desc">MetLife constituye la Fundación MetLife en México en 2005, promesa a largo plazo que la compañía hace para apoyar a familias que más lo necesitan. </p>
+        </div>
+        <div class="m-candidates-item seguros pblica DF instituto-nacional-de-estadstica-y-geografa secretara-de-salud">
+          <a href="/es/mx/companies/metlife"><h3><strong>MetLife</strong></h3></a>
+          <em>Seguros</em>
+          <p class="m-homepage-list-desc">Una de las aseguradoras más importantes en el país y la más grande en seguros de vida.</p>
+        </div>
+        <div class="m-candidates-item investigacin-cientfica partnership DF instituto-nacional-de-estadstica-y-geografa secretara-de-hacienda-y-crdito-pblico petrleos-mexicanos secretara-de-economa banco-de-mxico">
+          <a href="/es/mx/companies/asociacin-nacional-de-la-industria-qumica-aniq"><h3><strong>Asociación Nacional de la Industria Química (ANIQ)</strong></h3></a>
+          <em>Investigación Científica</em>
+          <p class="m-homepage-list-desc">Organismo líder que representa a la industria química establecida en México.</p>
+        </div>
+        <div class="m-candidates-item  privada DF">
+          <a href="/es/mx/companies/intelimtrica"><h3><strong>Intelimétrica</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc">Inteligencia accionable</p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/de-la-calle-madrazo-mancera"><h3><strong>De la Calle Madrazo Mancera</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item transporte sin-fines-de-lucro DF">
+          <a href="/es/mx/companies/bicitekas"><h3><strong>Bicitekas</strong></h3></a>
+          <em>Transporte</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item   DF">
+          <a href="/es/mx/companies/consejo-de-investigacin-de-medios-cim"><h3><strong>Consejo de Investigación de Medios (CIM)</strong></h3></a>
+          <em>Project-Id-Version: 1.0
+Report-Msgid-Bugs-To: john@thegovlab.org
+PO-Revision-Date: 2015-06-15 14:00+0100
+Last-Translator: John Krauss <john@thegovlab.org>
+Language-Team: English <john@thegovlab.org>
+Language: Spanish
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+</em>
+          <p class="m-homepage-list-desc"></p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin secretara-de-turismo procuradura-ambiental-y-del-ordenamiento-territorial-del-distrito-federal secretara-de-salud secretara-de-economa secretara-de-educacin-pblica survey-company">
+          <a href="/es/mx/companies/verne42"><h3><strong>Verne42</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Verne42 es una compañía que analiza, propone y soluciona problemas diversos a través de big data.</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada DF instituto-nacional-de-estadstica-y-geografa instituto-nacional-electoral secretara-de-gobernacin contralora-del-distrito-federal instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado secretara-de-economa survey-company">
+          <a href="/es/mx/companies/rgov"><h3><strong>RGov</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">Construimos soluciones inteligentes y confiables para contribuir en el ecosistema del territorio local</p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races sin-fines-de-lucro DF secretara-de-desarrollo-agrario-territorial-y-urbano registro-nico-de-vivienda instituto-nacional-de-estadstica-y-geografa secretara-de-gobernacin secretara-de-hacienda-y-crdito-pblico instituto-del-fondo-nacional-de-la-vivienda-para-los-trabajadores survey-company">
+          <a href="/es/mx/companies/foropolis-mxico"><h3><strong>Foropolis México</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">Impulsamos los estudios, la planeación y la gestión del territorio como instrumentos de desarrollo nacional
+</p>
+        </div>
+        <div class="m-candidates-item viviendabienes-races pblica DF secretara-de-gobernacin instituto-nacional-de-estadstica-y-geografa secretara-de-desarrollo-agrario-territorial-y-urbano secretara-de-turismo instituto-del-fondo-nacional-de-la-vivienda-para-los-trabajadores instituto-de-seguridad-y-servicios-sociales-de-los-trabajadores-del-estado banco-de-mxico">
+          <a href="/es/mx/companies/softec"><h3><strong>Softec</strong></h3></a>
+          <em>Vivienda/Bienes Raíces</em>
+          <p class="m-homepage-list-desc">Empresa especializada en la consultoría e investigación inmobiliaria en México.</p>
+        </div>
+        <div class="m-candidates-item servicios-legales privada DF secretara-de-la-funcin-pblica suprema-corte-de-justicia-de-la-nacin survey-company">
+          <a href="/es/mx/companies/buro-de-investigaciones-legales"><h3><strong>Buro de Investigaciones Legales</strong></h3></a>
+          <em>Servicios Legales</em>
+          <p class="m-homepage-list-desc">BIL es una empresa mexicana que da acceso a mas de 300 millones de registros de información pública nacional y global, desde 1996.</p>
+        </div>
+        <div class="m-candidates-item salud privada DF secretara-de-salud survey-company">
+          <a href="/es/mx/companies/farmasmart"><h3><strong>FarmaSmart</strong></h3></a>
+          <em>Salud</em>
+          <p class="m-homepage-list-desc">Farmasmart es una farmacia en linea a domicilio en México.</p>
+        </div>
+        <div class="m-candidates-item agricultura-y-alimentacin privada CH survey-company">
+          <a href="/es/mx/companies/sa"><h3><strong>sa</strong></h3></a>
+          <em>Agricultura y Alimentación</em>
+          <p class="m-homepage-list-desc">sa</p>
+        </div>
+        <div class="m-candidates-item tecnologadatos privada CH survey-company">
+          <a href="/es/mx/companies/asd"><h3><strong>asd</strong></h3></a>
+          <em>Tecnología/Datos</em>
+          <p class="m-homepage-list-desc">sa</p>
+        </div>
+        <div class="m-candidates-item investigacin-cientfica privada CH survey-company">
+          <a href="/es/mx/companies/rew"><h3><strong>rew</strong></h3></a>
+          <em>Investigación Científica</em>
+          <p class="m-homepage-list-desc">sa</p>
+        </div>
+        <div class="m-candidates-item agricultura-y-alimentacin privada CH survey-company">
+          <a href="/es/mx/companies/adasd"><h3><strong>adasd</strong></h3></a>
+          <em>Agricultura y Alimentación</em>
+          <p class="m-homepage-list-desc">a</p>
+        </div>
+  </div>
+</div>
+
+<script>
+  var chartTitleText = "Filtrar por estado";
+  var statesForMap = [{"abbrev": "CM", "STATE": "Colima", "VALUE": 0}, {"abbrev": "CL", "STATE": "Coahuila", "VALUE": 0}, {"abbrev": "GR", "STATE": "Guerrero", "VALUE": 0}, {"abbrev": "AS", "STATE": "Aguascalientes", "VALUE": 1}, {"abbrev": "CH", "STATE": "Chihuahua", "VALUE": 1}, {"abbrev": "YN", "STATE": "Yucat\u00e1n", "VALUE": 1}, {"abbrev": "BC", "STATE": "Baja California", "VALUE": 0}, {"abbrev": "CC", "STATE": "Campeche", "VALUE": 0}, {"abbrev": "MN", "STATE": "Michoac\u00e1n", "VALUE": 2}, {"abbrev": "MS", "STATE": "Morelos", "VALUE": 0}, {"abbrev": "SL", "STATE": "Sinaloa", "VALUE": 0}, {"abbrev": "PL", "STATE": "Puebla", "VALUE": 1}, {"abbrev": "ZS", "STATE": "Zacatecas", "VALUE": 0}, {"abbrev": "DF", "STATE": "Distrito Federal", "VALUE": 80}, {"abbrev": "DG", "STATE": "Durango", "VALUE": 0}, {"abbrev": "BS", "STATE": "Baja California Sur", "VALUE": 0}, {"abbrev": "CS", "STATE": "Chiapas", "VALUE": 0}, {"abbrev": "GT", "STATE": "Guanajuato", "VALUE": 0}, {"abbrev": "TL", "STATE": "Tlaxcala", "VALUE": 0}, {"abbrev": "SR", "STATE": "Sonora", "VALUE": 1}, {"abbrev": "NT", "STATE": "Nayarit", "VALUE": 0}, {"abbrev": "TC", "STATE": "Tabasco", "VALUE": 0}, {"abbrev": "MC", "STATE": "Estado de M\u00e9xico", "VALUE": 0}, {"abbrev": "QT", "STATE": "Quer\u00e9taro", "VALUE": 1}, {"abbrev": "JC", "STATE": "Jalisco", "VALUE": 6}, {"abbrev": "NL", "STATE": "Nuevo Le\u00f3n", "VALUE": 11}, {"abbrev": "HG", "STATE": "Hidalgo", "VALUE": 0}, {"abbrev": "VZ", "STATE": "Veracruz", "VALUE": 1}, {"abbrev": "OC", "STATE": "Oaxaca", "VALUE": 0}, {"abbrev": "TS", "STATE": "Tamaulipas", "VALUE": 0}, {"abbrev": "SP", "STATE": "San Luis Potos\u00ed", "VALUE": 0}, {"abbrev": "QR", "STATE": "Quintana Roo", "VALUE": 2}];
+  var country = "mx";
+</script>
+<script src="http://localhost:8000/es/../en/theme/bower_components/d3/d3.min.js"></script>
+<script src="http://localhost:8000/es/../en/theme/js/queue.v1.min.js"></script>
+<script src="http://localhost:8000/es/../en/theme/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
+<script src="http://localhost:8000/es/../en/theme/bower_components/spin/javascripts/jquery.spin.js"></script>
+<script src="http://localhost:8000/es/../en/theme/js/list.js"></script>
+
+  </div>
+  <footer>
+    <div class="container">
+      <div class="pull-left footer-logos">
+        <a href="http://thegovlab.org/">
+          <img id="govlab-logo" src="http://localhost:8000/es/../en/theme/img/govlab-logo.png" alt="The GovLab">
+        </a>
+      </div>
+      <ul>
+        <li class="footer-menu-item"><a href="https://twitter.com/opendata500" target="_blank">Twitter</a></li>
+        <!--<li class="footer-menu-item"><a href="/us/about/" target="_blank">About</a></li>-->
+        <li class="footer-menu-item last"><a href="mailto:opendata500@thegovlab.org" target="_blank">Contact Us</a></li>
+      </ul>
+      <p class="creative-commons-license">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+        </a>
+        <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">
+          The Open Data 500
+        </span> by
+        <a xmlns:cc="http://creativecommons.org/ns#" href="http://thegovlab.org/" property="cc:attributionName" rel="cc:attributionURL">
+          The GovLab
+        </a> is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+          Creative Commons Attribution-ShareAlike 4.0 International License
+        </a>.<br />
+        Based on a work at
+        <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/govlab/od500-static" rel="dct:source">
+          https://github.com/govlab/od500-static
+        </a>.
+      </p>
+    </div>
+  </footer><!-- end footer -->
+</body>
+</html>

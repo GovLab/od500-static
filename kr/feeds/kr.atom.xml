@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Open Data 500</title><link href="http://localhost:8000/kr/" rel="alternate"></link><link href="http://localhost:8000/feeds/kr.atom.xml" rel="self"></link><id>http://localhost:8000/kr/</id><updated>2015-06-11T00:00:00-04:00</updated><entry><title>Open Data 500 Korea</title><link href="http://localhost:8000/kr//en/kr/" rel="alternate"></link><updated>2015-06-11T00:00:00-04:00</updated><author><name></name></author><id>tag:localhost:8000,2015-06-11:kr//en/kr/</id><summary type="html">&lt;h1&gt;About this Project&lt;/h1&gt;
+&lt;p&gt;Open Data 500 Korea is a joint project between
+&lt;a href="http://www.thegovlab.org/"&gt;Govlab&lt;/a&gt; and &lt;a href="http://www.nia.or.kr/"&gt;NIA&lt;/a&gt; to conduct
+a comprehensive, internationally comparable study of private sector entities
+using open data in Korea.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Study Objectives&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide a basis for assessing the economic and social value of open data.&lt;/li&gt;
+&lt;li&gt;Encourage the development of new open data companies.&lt;/li&gt;
+&lt;li&gt;Foster a dialogue between government and the private sector on how open data
+  can be made more useful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Approach&lt;/h1&gt;
+&lt;p&gt;The Open Data 500 Korea study will facilitate the identification, analyzation,
+and organization of private sector entities using open data into a network to
+enable increased communication and interaction with government to improve open
+data policies. This network will be supported by Open Data Korea Forum and will
+integrate with their existing community. The outcome of this project, the Open
+Data 500 Korea, will be launched during the 2015 Open Data Korea Forum event in
+July.&lt;/p&gt;
+&lt;p&gt;This project has been reported to the &lt;a href="http://www.odsc.go.kr/"&gt;Open Data Strategy
+Council&lt;/a&gt; of Korea, the highest decision making body on
+open data in Korea, co-chaired by the Prime Minister and is funded by the
+Ministry of Government Administration and Home Affairs (MOHAGA). It is our hope
+that this network will collaborate actively with partners worldwide,
+particularly those within the Open Data 500 Global Network, to bring the
+benefits of open data beyond national borders to a global scale.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Company Identification&lt;/h1&gt;
+&lt;p&gt;The Open Data 500 Korea team will compile the list of companies and NGOs
+through&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;outreach campaigns&lt;/li&gt;
+&lt;li&gt;advice from experts and professional organizations, and&lt;/li&gt;
+&lt;li&gt;additional research.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The results of the study will culminate in an online platform at
+&lt;a href="http://www.opendata500.com/kr/kr"&gt;www.opendata500.com/kr/kr&lt;/a&gt;, which will
+highlight the companies and their use of open data in Korea.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;What The Study Is Not&lt;/h1&gt;
+&lt;p&gt;The Open Data 500 Korea is not a rating or ranking of companies. It covers
+companies and entities of different sizes and categories, using various kinds
+of data. The Open Data 500 Korea is not a competition, but an attempt to give
+a broad, inclusive view of the field. The study also does not provide a random
+sample for definitive statistical analysis. Since this is the first thorough
+scan of companies and entities in the field, it is not yet possible to
+determine the exact landscape of open data companies and entities.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;About the Open Data Policy&lt;/h1&gt;
+&lt;p&gt;Since enactment of the Open Data Law in 2013 there has been a massive increase
+in the number of datasets opened up by government and the public sector. There
+is increasingly a growing interest and policy need to improve our understanding
+about the use and impact of open data socially and economically. The Open Data
+500 Korea will complement existing government surveys on the use of open data
+in Korea, which are grounded in the Open Data Law of Korea.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h1&gt;Team&lt;/h1&gt;
+&lt;p&gt;(todo)&lt;/p&gt;</summary><category term="od500 kr"></category></entry></feed>

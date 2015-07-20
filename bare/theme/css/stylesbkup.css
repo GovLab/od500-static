@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "$purple: #472b74": expected "{", was ";"
+        on line 19 of static/css/stylesbkup.scss
+
+14: 
+15: 
+16: 
+17: 
+18: 
+19: $purple: #472b74;
+20: $light_purple: #8977a7;
+21: $black: #444;
+22: $dark_gray: #666;
+23: $light_gray: #aaa;
+24: $white: #fff;
+
+Backtrace:
+static/css/stylesbkup.scss:19
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1167:in `expected'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:641:in `block'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:636:in `ruleset'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:650:in `block_contents'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/plugin.rb:108:in `method_missing'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/home/talos/.rbenv/versions/1.9.3-p551/lib/ruby/gems/1.9.1/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+/home/talos/.rbenv/versions/1.9.3-p551/bin/sass:23:in `load'
+/home/talos/.rbenv/versions/1.9.3-p551/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$purple: #472b74\": expected \"{\", was \";\"\A         on line 19 of static/css/stylesbkup.scss\A \A 14: \A 15: \A 16: \A 17: \A 18: \A 19: $purple: #472b74;\A 20: $light_purple: #8977a7;\A 21: $black: #444;\A 22: $dark_gray: #666;\A 23: $light_gray: #aaa;\A 24: $white: #fff;"; }
